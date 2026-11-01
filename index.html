@@ -1,0 +1,676 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Logesh — A Collection of Curiosities</title>
+<meta name="description" content="Logesh Ramasamy: partner solutions engineer at Zoho, exploring the intersection of technology, people, products and places.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Caveat:wght@500;700&family=Fraunces:ital,opsz,wght@0,9..144,500..900;1,9..144,400..800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4ecdc; --paper2:#ece1ca; --ink:#1d1814; --soft:#5f554a; --rule:rgba(29,24,20,.16);
+  --pro:#2f46a8; --tech:#7a3fa0; --place:#d98a00; --exp:#d6335a; --life:#2f8a4e; --red:#c8321e;
+  --serif:'Fraunces',Georgia,serif; --sans:'Bricolage Grotesque',system-ui,sans-serif; --hand:'Caveat',cursive;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:400;line-height:1.6;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;opacity:.35;mix-blend-mode:multiply;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .28  0 0 0 .5 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.hand{font-family:var(--hand);font-weight:700;color:var(--red);font-size:1.5rem;line-height:1.1}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+.rough{position:relative}
+.rough::after{content:"";position:absolute;inset:0;border:2.5px solid var(--ink);border-radius:var(--r,14px);filter:url(#wobble);pointer-events:none}
+
+/* nav */
+nav{position:fixed;inset:0 0 auto 0;z-index:30;display:flex;justify-content:space-between;align-items:center;padding:14px 28px;background:linear-gradient(var(--paper) 55%,transparent)}
+.logo{font-family:var(--serif);font-weight:800;font-size:1.35rem;text-decoration:none;letter-spacing:-.02em}
+.logo i{color:var(--red);font-style:normal}
+nav ul{display:flex;gap:24px;list-style:none}
+nav ul a{text-decoration:none;font-size:.92rem;font-weight:500;background:linear-gradient(var(--red),var(--red)) 0 100%/0 2px no-repeat;transition:background-size .3s;padding-bottom:2px}
+nav ul a:hover{background-size:100% 2px}
+@media(max-width:760px){nav ul li:nth-child(n+4){display:none}nav ul{gap:16px}}
+
+/* hero */
+#hero{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden}
+#heroCanvas{position:absolute;inset:0;width:100%;height:100%}
+.hero-inner{position:relative;z-index:2;padding-top:100px;padding-bottom:80px}
+.hero-top{display:flex;align-items:center;gap:14px;margin-bottom:22px;opacity:0;animation:fade .8s .2s forwards}
+.hero-top .hand{transform:rotate(-2deg)}
+h1.title{font-family:var(--serif);font-weight:800;font-size:clamp(2.3rem,6.6vw,5.8rem);line-height:.98;letter-spacing:-.035em;max-width:13em;font-variation-settings:"opsz" 144}
+h1.title .l2{display:block;font-style:italic;font-weight:500;color:var(--red);margin-top:.12em;position:relative;letter-spacing:-.025em}
+h1.title .w{display:inline-block;opacity:0;transform:translateY(.5em) rotate(2deg);animation:rise .7s cubic-bezier(.2,.9,.3,1.2) forwards}
+.scribble{position:absolute;left:0;bottom:-.18em;width:46%;height:.3em;overflow:visible}
+.scribble path{fill:none;stroke:var(--ink);stroke-width:5;stroke-linecap:round;stroke-dasharray:420;stroke-dashoffset:420;animation:draw 1.1s 2.3s ease-out forwards}
+.sub{max-width:31em;margin:36px 0 34px;font-size:1.18rem;opacity:0;animation:fade .8s 1.9s forwards}
+.ctas{display:flex;flex-wrap:wrap;gap:16px;align-items:center;opacity:0;animation:fade .8s 2.2s forwards}
+.btn{padding:14px 24px;border:2.5px solid var(--ink);border-radius:12px;background:var(--paper);text-decoration:none;font-weight:600;font-size:.98rem;box-shadow:4px 4px 0 var(--ink);transition:.15s;display:inline-block}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink)}
+.btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
+.btn.primary{background:var(--red);color:#fff7ec}
+.note-arrow{display:flex;align-items:center;gap:6px;transform:rotate(-4deg)}
+.note-arrow svg{width:56px;height:36px}
+.tag{margin-top:44px;font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--soft);max-width:30em;opacity:0;animation:fade .8s 2.5s forwards}
+.scrollcue{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);z-index:2}
+@keyframes rise{to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+
+/* sections */
+section{position:relative;padding:120px 0}
+.sec-head{margin-bottom:40px;max-width:46em}
+.sec-head .hand{display:inline-block;transform:rotate(-2.5deg);margin-bottom:6px}
+.sec-head h2{font-family:var(--serif);font-weight:800;font-size:clamp(2rem,4.8vw,3.7rem);line-height:1;letter-spacing:-.03em;margin:6px 0 16px}
+.sec-head h2 em{color:var(--red);font-weight:500}
+.sec-head p{color:var(--soft);font-size:1.08rem;max-width:38em}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* receipts */
+.stats{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;margin:-30px 0 0;position:relative;z-index:3}
+.stat{flex:1 1 200px;max-width:260px;padding:20px 22px;background:#fffaf0;border:2px dashed var(--ink);border-radius:6px;box-shadow:3px 4px 0 rgba(29,24,20,.2);transform:rotate(var(--rot,0deg))}
+.stat:nth-child(1){--rot:-1.6deg}.stat:nth-child(2){--rot:1.1deg}.stat:nth-child(3){--rot:-.7deg}.stat:nth-child(4){--rot:1.8deg}.stat:nth-child(5){--rot:-1.2deg}
+.stat b{display:block;font-family:var(--serif);font-weight:900;font-size:2.7rem;line-height:1;letter-spacing:-.04em}
+.stat:nth-child(1) b{color:var(--pro)}.stat:nth-child(2) b{color:var(--red)}.stat:nth-child(3) b{color:var(--life)}.stat:nth-child(4) b{color:var(--exp)}.stat:nth-child(5) b{color:var(--tech);font-size:1.9rem;padding-top:.5rem}
+.stat span{display:block;margin-top:8px;font-size:.88rem;color:var(--soft);line-height:1.35}
+
+/* stage */
+.stage{--r:22px;position:relative;height:min(76vh,740px);min-height:460px;border-radius:22px;overflow:hidden;background:var(--paper2);background-image:radial-gradient(rgba(29,24,20,.16) 1px,transparent 1.4px);background-size:22px 22px;box-shadow:9px 9px 0 var(--ink)}
+.tape{position:absolute;width:110px;height:30px;background:rgba(232,190,80,.72);top:-10px;left:50%;transform:translateX(-50%) rotate(-3deg);z-index:5;box-shadow:0 1px 2px rgba(0,0,0,.2)}
+#worldCanvas,#mapCanvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;cursor:grab}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
+.chip{display:inline-flex;align-items:center;gap:9px;padding:8px 16px;border-radius:999px;border:2px solid var(--ink);font-weight:500;font-size:.88rem;background:var(--paper);transition:.15s;box-shadow:2px 2px 0 var(--ink)}
+.chip i{width:12px;height:12px;border-radius:50%;background:var(--c);border:1.5px solid var(--ink)}
+.chip[aria-pressed=true]{background:var(--c);color:#fff;box-shadow:none;transform:translate(2px,2px)}
+.chip[aria-pressed=true] i{background:#fff}
+.chip.all[aria-pressed=true]{background:var(--ink)}
+.hint{position:absolute;left:24px;bottom:14px;pointer-events:none;transform:rotate(-2deg)}
+.tip{position:absolute;pointer-events:none;z-index:4;padding:6px 12px;background:#fffaf0;border:2px solid var(--ink);border-radius:8px;font-size:.85rem;font-weight:500;white-space:nowrap;opacity:0;transform:translate(-50%,-150%);transition:opacity .12s;box-shadow:3px 3px 0 var(--ink)}
+.tip small{display:block;font-family:var(--hand);font-size:1.05rem;line-height:1;color:var(--c)}
+.listview{margin-top:26px}
+.listview summary{cursor:pointer;color:var(--soft);font-size:.88rem}
+.listview div{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.listview button{padding:6px 12px;border:1.5px solid var(--ink);border-radius:8px;font-size:.82rem;background:#fffaf0}
+.listview button:hover{background:var(--c);color:#fff}
+
+/* places */
+.maptools{position:absolute;top:16px;right:16px;z-index:3;display:flex;gap:6px}
+.maptools button{padding:7px 14px;border-radius:999px;border:2px solid var(--ink);background:var(--paper);font-size:.82rem;font-weight:600}
+.maptools button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+#mapCanvas{cursor:default}
+.placelist{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:34px}
+.placelist button{text-align:left;padding:14px 18px;border:2px solid var(--ink);border-radius:10px;background:#fffaf0;box-shadow:3px 3px 0 var(--ink);transition:.15s}
+.placelist button:nth-child(odd){transform:rotate(-.8deg)}.placelist button:nth-child(even){transform:rotate(.7deg)}
+.placelist button:hover{transform:translate(-2px,-2px) rotate(0);box-shadow:5px 5px 0 var(--place)}
+.placelist b{display:block;font-family:var(--serif);font-weight:800;font-size:1.15rem;letter-spacing:-.02em}
+.placelist span{font-size:.82rem;color:var(--soft)}
+
+/* built */
+.tabs{display:flex;gap:4px;margin-bottom:0;flex-wrap:wrap;position:relative;z-index:2}
+.tab{padding:10px 20px;border:2.5px solid var(--ink);border-bottom:0;border-radius:12px 12px 0 0;font-weight:600;font-size:.92rem;background:var(--paper2);color:var(--soft);transform:translateY(2.5px)}
+.tab[aria-selected=true]{background:#fffaf0;color:var(--ink);padding-bottom:12px}
+.folder{border:2.5px solid var(--ink);border-radius:0 14px 14px 14px;padding:28px;background:#fffaf0;box-shadow:8px 8px 0 var(--ink)}
+.honesty{font-family:var(--hand);font-weight:700;font-size:1.55rem;line-height:1.15;color:var(--c);margin-bottom:24px;transform:rotate(-.6deg)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:26px}
+.card{position:relative;padding:24px 22px 20px;border:2px solid var(--ink);border-radius:6px;background:var(--paper);box-shadow:4px 4px 0 var(--c);transition:.2s;text-align:left;display:block;width:100%;transform:rotate(var(--rot,0deg))}
+.card:nth-child(3n+1){--rot:-1deg}.card:nth-child(3n+2){--rot:.8deg}.card:nth-child(3n){--rot:-.4deg}
+.card:hover{transform:rotate(0) translateY(-5px);box-shadow:7px 9px 0 var(--c)}
+.card::before{content:"";position:absolute;top:-11px;left:24px;width:62px;height:20px;background:rgba(232,190,80,.75);transform:rotate(-4deg)}
+.badge{display:inline-block;font-weight:700;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;padding:3px 9px;border:2px solid var(--c);color:var(--c);border-radius:4px;transform:rotate(-2deg)}
+.card h3{font-family:var(--serif);font-weight:800;font-size:1.35rem;line-height:1.1;letter-spacing:-.025em;margin:14px 0 8px}
+.card p{font-size:.93rem;color:var(--soft)}
+.card .more{display:inline-block;margin-top:12px;font-family:var(--hand);font-size:1.3rem;font-weight:700;color:var(--c)}
+
+/* wispr */
+#wispr{background:#fbf6ea;background-image:repeating-linear-gradient(transparent 0 33px,rgba(47,70,168,.2) 33px 34px);border-block:2.5px solid var(--ink)}
+#wispr::before{content:"";position:absolute;top:0;bottom:0;left:max(40px,calc(50% - 600px));width:2px;background:rgba(200,50,30,.45)}
+.ideas{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px}
+.idea{padding:26px 26px 22px;background:#fffdf6;border:2px solid var(--ink);border-radius:4px;box-shadow:5px 5px 0 var(--ink);transform:rotate(var(--rot,0deg))}
+.idea:nth-child(1){--rot:-.8deg}.idea:nth-child(2){--rot:.6deg}.idea:nth-child(3){--rot:-.4deg}
+.idea .num{font-family:var(--hand);font-size:3.4rem;line-height:.8;color:var(--red);font-weight:700}
+.idea h3{font-family:var(--serif);font-weight:800;font-size:1.45rem;letter-spacing:-.025em;margin:6px 0 10px;line-height:1.1}
+.idea p{font-size:.96rem}
+.idea dl{margin-top:14px;font-size:.9rem}
+.idea dt{font-family:var(--hand);font-weight:700;font-size:1.25rem;color:var(--pro);margin-top:10px;line-height:1}
+.idea dd{color:var(--soft)}
+.disclaimer{margin-top:34px;max-width:46em;font-size:.92rem;color:var(--soft);padding-left:14px;border-left:3px solid var(--red)}
+
+/* hello */
+#hello{text-align:center}
+#hello h2{font-family:var(--serif);font-weight:900;font-size:clamp(2.6rem,7.5vw,6rem);letter-spacing:-.04em;line-height:.95}
+#hello h2 em{color:var(--red);font-weight:500;position:relative;display:inline-block}
+.voicebox{max-width:640px;margin:44px auto 0;text-align:left;transform:rotate(-.5deg)}
+.voicebox textarea{width:100%;min-height:170px;padding:16px 20px;border:2.5px solid var(--ink);border-radius:8px;background:#fffdf6 repeating-linear-gradient(transparent 0 31px,rgba(47,70,168,.22) 31px 32px);background-attachment:local;color:var(--ink);font:inherit;font-size:1.05rem;line-height:32px;resize:vertical;box-shadow:6px 6px 0 var(--ink)}
+.voicebox textarea:focus{outline:none;box-shadow:6px 6px 0 var(--red)}
+.vbar{display:flex;gap:12px;align-items:center;margin-top:20px;flex-wrap:wrap}
+.mic{display:inline-flex;align-items:center;gap:10px;padding:12px 20px;border:2.5px solid var(--ink);border-radius:999px;background:var(--paper);font-weight:600;box-shadow:3px 3px 0 var(--ink)}
+.mic .dot{width:12px;height:12px;border-radius:50%;background:var(--red);border:2px solid var(--ink)}
+.mic.on{background:var(--red);color:#fff}
+.mic.on .dot{background:#fff;animation:pulse 1s infinite}
+@keyframes pulse{50%{transform:scale(1.5)}}
+.vbar select{background:var(--paper);border:2px solid var(--ink);border-radius:8px;padding:9px;font:inherit;font-size:.88rem}
+#vstatus{font-family:var(--hand);font-size:1.3rem;font-weight:700;color:var(--red)}
+.links{display:flex;justify-content:center;gap:16px;margin-top:40px;flex-wrap:wrap}
+footer{padding:30px 24px 60px;text-align:center;color:var(--soft);font-size:.88rem}
+
+/* panel */
+#scrim{position:fixed;inset:0;background:rgba(29,24,20,.45);opacity:0;pointer-events:none;transition:.35s;z-index:40}
+#panel{position:fixed;top:0;right:0;bottom:0;width:min(540px,100%);z-index:41;background:var(--paper);background-image:radial-gradient(rgba(29,24,20,.1) 1px,transparent 1.4px);background-size:22px 22px;border-left:3px solid var(--ink);transform:translateX(104%);transition:transform .5s cubic-bezier(.2,.9,.25,1.05);overflow-y:auto;overscroll-behavior:contain}
+body.open #scrim{opacity:1;pointer-events:auto}
+body.open #panel{transform:none}
+.p-art{position:relative;margin:44px 40px 0;height:230px;background:#fffdf6;border:2.5px solid var(--ink);box-shadow:5px 5px 0 var(--ink);transform:rotate(-1.4deg);padding:10px 10px 38px}
+.p-art .frame{position:relative;width:100%;height:100%;background:color-mix(in srgb,var(--c) 14%,#fffdf6);overflow:hidden}
+.p-art svg{position:absolute;inset:0;width:100%;height:100%}
+.p-art::before{content:"";position:absolute;top:-14px;left:50%;width:90px;height:26px;background:rgba(232,190,80,.78);transform:translateX(-50%) rotate(3deg);z-index:2}
+.p-art .cap{position:absolute;left:14px;bottom:5px;font-family:var(--hand);font-weight:700;font-size:1.3rem;color:var(--soft)}
+.p-close{position:absolute;top:14px;right:14px;z-index:3;width:42px;height:42px;border-radius:50%;border:2.5px solid var(--ink);background:var(--paper);font-size:1.1rem;font-weight:700;box-shadow:2px 2px 0 var(--ink)}
+.p-body{padding:34px 40px 70px}
+.p-meta{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+.p-meta .when{font-family:var(--hand);font-weight:700;font-size:1.4rem;color:var(--soft)}
+.p-body h3{font-family:var(--serif);font-weight:800;font-size:2.2rem;line-height:1;letter-spacing:-.03em;margin-bottom:10px}
+.p-status{font-family:var(--hand);font-weight:700;font-size:1.3rem;margin-bottom:16px}
+.p-body .story{font-size:1.04rem}
+.p-body .story p+p{margin-top:12px}
+.facts{margin:24px 0;list-style:none}
+.facts li{padding:9px 0;border-bottom:1.5px dashed var(--rule);font-size:.93rem;display:flex;gap:12px}
+.facts li::before{content:"✱";color:var(--c);font-weight:700}
+.rel{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.rel button{padding:6px 14px;border:2px solid var(--ink);border-radius:999px;font-size:.84rem;font-weight:500;background:#fffaf0;box-shadow:2px 2px 0 var(--c)}
+.rel button:hover{background:var(--c);color:#fff}
+.slot{margin-top:26px;padding:14px 16px;border:2px dashed var(--soft);border-radius:8px;font-size:.84rem;color:var(--soft)}
+
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-delay:0s!important;transition-duration:.01s!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="wobble"><feTurbulence type="fractalNoise" baseFrequency=".02" numOctaves="2" seed="4" result="t"/><feDisplacementMap in="SourceGraphic" in2="t" scale="4"/></filter></svg>
+
+<nav>
+  <a class="logo" href="#hero">Logesh<i>.</i></a>
+  <ul>
+    <li><a href="#world">My world</a></li>
+    <li><a href="#places">Places</a></li>
+    <li><a href="#built">What I've built</a></li>
+    <li><a href="#wispr">Why voice</a></li>
+    <li><a href="#hello">Say hello</a></li>
+  </ul>
+</nav>
+
+<header id="hero">
+  <canvas id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="wrap hero-inner">
+    <div class="hero-top"><span class="hand">Logesh — a collection of curiosities</span><span style="font-size:.9rem;color:var(--soft)">Chennai, India · problem-solver, storyteller</span></div>
+    <h1 class="title" id="heroTitle" aria-label="Curious about how things work. More curious about how they could work better.">
+      <span class="l1">Curious about how things work.</span>
+      <span class="l2">More curious about how they could work better.<svg class="scribble" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M3 12 C40 4,70 17,110 9 S190 4,240 11 S285 8,297 6"/></svg></span>
+    </h1>
+    <p class="sub">I'm Logesh. I explore technology, build relationships, solve business problems and collect experiences along the way.</p>
+    <div class="ctas">
+      <a class="btn primary" href="#world">Explore my world</a>
+      <a class="btn" href="#built">Discover what I've built</a>
+      <span class="note-arrow hand" style="font-size:1.35rem"><svg viewBox="0 0 56 36" fill="none" stroke="#c8321e" stroke-width="2.5" stroke-linecap="round"><path d="M52 6 C30 2,12 12,6 28 M6 28 L5 17 M6 28 L16 25"/></svg>the dots move. try them.</span>
+    </div>
+    <p class="tag">“Exploring the intersection of technology, people, products and places.”</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="stats reveal" id="stats">
+    <div class="stat"><b data-n="4" data-s="+">0</b><span>years at Zoho</span></div>
+    <div class="stat"><b data-n="150" data-s="+">0</b><span>exclusive Bigin partners I support</span></div>
+    <div class="stat"><b data-n="55" data-s="+">0</b><span>Zoho product teams I carry partner feedback to</span></div>
+    <div class="stat"><b data-n="19" data-s="">0</b><span>my age when I presented at Zoho Inspire Dubai</span></div>
+    <div class="stat"><b>MEA · UK · EU</b><span>international partners &amp; customers</span></div>
+  </div>
+</div>
+
+<section id="world">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="hand">chapter one →</span>
+      <h2>My life isn't a timeline. <em>It's a pile of connected things.</em></h2>
+      <p>Spin it. Each dot is a chapter — a job, a product I keep thinking about, a place, an experiment, something I do for fun. Tap one to read its story and follow the threads to the next.</p>
+    </div>
+    <div class="chips reveal" id="chips" role="group" aria-label="Filter by category"></div>
+    <div class="stage rough reveal">
+      <span class="tape"></span>
+      <canvas id="worldCanvas" aria-label="Interactive constellation of chapters. A list version is available below."></canvas>
+      <div class="tip" id="tip"></div>
+      <span class="hand hint">drag me · click a dot</span>
+    </div>
+    <details class="listview"><summary>Prefer a plain list? (keyboard &amp; screen-reader friendly)</summary><div id="listview"></div></details>
+  </div>
+</section>
+
+<section id="places" style="padding-top:50px">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="hand">chapter two →</span>
+      <h2>Home is <em>Chennai.</em> Curiosity doesn't stay there.</h2>
+      <p>From towns across Tamil Nadu to other Indian states, over the water to Sri Lanka and out to Dubai. Switch the view, click a pin.</p>
+    </div>
+    <div class="stage rough reveal">
+      <span class="tape" style="left:20%;transform:rotate(4deg)"></span>
+      <div class="maptools" id="maptools">
+        <button data-v="wide" aria-pressed="true">Wide</button>
+        <button data-v="south" aria-pressed="false">South India</button>
+      </div>
+      <canvas id="mapCanvas" aria-label="Dot map of places I've explored"></canvas>
+      <div class="tip" id="mtip"></div>
+    </div>
+    <div class="placelist" id="placelist"></div>
+  </div>
+</section>
+
+<section id="built">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="hand">chapter three →</span>
+      <h2>What I've built, sorted by <em>how real it is.</em></h2>
+      <p>I'm a partner solutions engineer, not a software engineer. So I keep three piles: things I've done, things I've tried, and ideas I haven't built yet.</p>
+    </div>
+    <div class="tabs reveal" role="tablist" id="tabs"></div>
+    <div class="folder reveal">
+      <div id="honesty" class="honesty"></div>
+      <div class="cards" id="cards"></div>
+    </div>
+  </div>
+</section>
+
+<section id="wispr">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="hand">my notebook →</span>
+      <h2>Three guesses about <em>voice in India.</em></h2>
+      <p>I spend my days teaching people to put the right information into software. The hardest part usually isn't the software, it's the typing. Here's how I'd start thinking about Wispr Flow in India, written as questions to test rather than answers.</p>
+    </div>
+    <div class="ideas">
+      <article class="idea reveal"><div class="num">1.</div><h3>Win on code-switching</h3>
+        <p>I speak Tamil and Telugu natively, work in English, and my Hindi is limited. I switch mid-sentence all day. Dictation that copes with that could feel like magic.</p>
+        <dl><dt>My guess</dt><dd>Fluent mixed-language dictation is the sharpest wedge for Indian professionals who think in two languages but type in one.</dd>
+        <dt>How I'd test it</dt><dd>Record voice notes from ~20 colleagues and partners (starting with my own), compare how they'd say things with how they type them, and note the gaps.</dd>
+        <dt>What I don't know</dt><dd>Current language coverage and accuracy in the product. I'd need to try it first.</dd></dl></article>
+      <article class="idea reveal"><div class="num">2.</div><h3>Grow through ecosystems</h3>
+        <p>At Zoho I help 150+ partners learn, sell and implement a product. The pattern, trusted local experts who demo a tool to their own clients, could carry over to voice productivity.</p>
+        <dl><dt>My guess</dt><dd>A small cohort of consultants, agencies and trainers who use voice daily is a more credible channel in India than broad ads.</dd>
+        <dt>How I'd test it</dt><dd>Run a 4-week pilot with a handful of agency owners: an onboarding kit, a weekly workflow tip, and see who keeps using it unprompted.</dd>
+        <dt>What I don't know</dt><dd>Pricing sensitivity, and whether a partner-style programme fits how the team already grows.</dd></dl></article>
+      <article class="idea reveal"><div class="num">3.</div><h3>Voice for the messy middle of work</h3>
+        <p>Sales and support teams under-log calls because typing notes is a chore. Speaking a recap right after a call is faster, and the notes come out richer.</p>
+        <dl><dt>My guess</dt><dd>Small-business teams on CRMs are a natural early audience: the habit repeats daily and the payoff is visible.</dd>
+        <dt>How I'd test it</dt><dd>Ask 10 CRM users to dictate call notes for two weeks. Compare note length, completeness and time spent.</dd>
+        <dt>What I don't know</dt><dd>How this fits integrations and privacy expectations in different industries.</dd></dl></article>
+    </div>
+    <p class="disclaimer">These are my own ideas, not built or validated products, and I'm not affiliated with Wispr Flow. I'm applying because I'd love to find out which of them survive contact with real users.</p>
+  </div>
+</section>
+
+<section id="hello">
+  <div class="wrap">
+    <span class="hand reveal">one more thing →</span>
+    <h2 class="reveal" style="margin-top:10px">Don't type it.<br><em>Say it.</em></h2>
+    <p class="reveal" style="color:var(--soft);margin-top:18px">A tiny experiment: dictate a note using your browser's built-in speech recognition. Nothing leaves this page.</p>
+    <div class="voicebox reveal">
+      <textarea id="note" placeholder="Press the mic and start talking… or just type." aria-label="Your note"></textarea>
+      <div class="vbar">
+        <button class="mic" id="mic" aria-pressed="false"><span class="dot"></span><span id="miclabel">Start dictating</span></button>
+        <select id="lang" aria-label="Language"><option value="en-IN">English (India)</option><option value="ta-IN">தமிழ் (Tamil)</option><option value="hi-IN">हिन्दी (Hindi)</option><option value="en-GB">English (UK)</option></select>
+        <button class="btn" id="copy" style="padding:9px 16px">Copy</button>
+        <span id="vstatus"></span>
+      </div>
+    </div>
+    <div class="links" id="links"></div>
+  </div>
+</section>
+
+<footer>Made by Logesh Ramasamy in Chennai, with AI as a co-pilot. A collection, never finished.</footer>
+
+<div id="scrim"></div>
+<aside id="panel" role="dialog" aria-modal="true" aria-labelledby="pTitle" tabindex="-1">
+  <button class="p-close" id="pClose" aria-label="Close">✕</button>
+  <div class="p-art" id="pArt"><div class="frame" id="pFrame"></div><span class="cap">photo goes here</span></div>
+  <div class="p-body" id="pBody"></div>
+</aside>
+
+<script>
+/* =====================================================================
+   CONFIG — edit freely. Only add what's true.
+   ===================================================================== */
+const CONFIG = {
+  // Add real URLs to show buttons in the Say-hello section (empty = hidden).
+  links: { LinkedIn: "https://www.linkedin.com/in/logesh-ramasamy", Email: "mailto:logeshl2003@gmail.com" }
+};
+
+const CATS = {
+  pro:   {name:"Professional journey",   c:"#2f46a8"},
+  tech:  {name:"Technology & products",  c:"#7a3fa0"},
+  place: {name:"Places explored",        c:"#d98a00"},
+  exp:   {name:"Creative experiments",   c:"#d6335a"},
+  life:  {name:"Personal interests",     c:"#2f8a4e"}
+};
+const STATUS = {
+  verified:"Verified", interest:"Interest", experiment:"Experiment", proposal:"Proposal · not built"
+};
+
+/* Every chapter. status keeps verified facts apart from interests & ideas. */
+const NODES = [
+ // PROFESSIONAL
+ {id:"fiverr",cat:"pro",title:"Fiverr freelancer",when:"Oct 2019 – Jul 2021",status:"verified",
+  story:["I started as a freelance content writer on Fiverr, which is where I learned that clear, engaging writing is a skill people will pay for.","Then I got curious about the rest of digital marketing and taught myself the strategies and brand-awareness side, mostly by reading and asking questions on Quora."],
+  facts:["Freelance content writer, Oct 2019 – Jul 2021","Self-taught digital marketing","Google Ads Measurement certification"],rel:["writing","zsl","marketing"]},
+ {id:"zsl",cat:"pro",title:"Zoho Schools of Learning",when:"Jul 2021 – Jul 2023",status:"verified",
+  story:["I chose learning by doing over traditional education and joined Zoho Schools of Learning as a student intern.","It was a broad start: content writing, product management, marketing, sales, pre-sales and customer support, with regular guest lectures from people working at Zoho. It's also where I built my public speaking and leadership skills."],
+  facts:["Student intern, Jul 2021 – Jul 2023","Rotated through content, product, marketing, sales, pre-sales and support","Public speaking and leadership"],rel:["fiverr","presales","meaintern"]},
+ {id:"presales",cat:"pro",title:"Presales Engineer Intern — UK & Europe",when:"Apr – Aug 2022",status:"verified",
+  story:["My first real customer-facing role: helping UK and European retail businesses see how Zoho CRM, CRM Plus and Zoho One could fit their operations.","I ran consultations and custom demos, worked with sales on proposals, tracked competitors and retail trends, and fed customer feedback back to the product team."],
+  facts:["CRM, CRM Plus and Zoho One for UK & EU retail","Demos, consultations, proposals","Competitor analysis and market research"],rel:["zsl","global","meaintern"]},
+ {id:"meaintern",cat:"pro",title:"Partner Solutions Engineer Intern — MEA",when:"Apr 2022 – Jul 2023 · Dubai",status:"verified",
+  story:["I joined the partner solutions team for the Middle East and Africa, working from Dubai, with the same responsibilities as the full-time role.","It's where I learned to sit between partners, customers and product teams, and where I got the chance to present at Zoho Inspire."],
+  facts:["Based in Dubai, UAE","Same scope as the full-time partner solutions role","Represented Zoho at Zoho Inspire Dubai 2023"],rel:["inspire","dubai","pse"]},
+ {id:"pse",cat:"pro",title:"Partner Solutions Engineer / Solution Architect",when:"Jul 2023 – Present",status:"verified",
+  story:["I work with Zoho partners to give pre-sales technical support to mid-market and enterprise clients, helping partners understand what a client needs and designing a solution from Zoho's product portfolio.","Day to day it's workshops, demos, consultations, webinars, sales proposals and technical documentation, plus carrying partner feedback back to the people who build the product."],
+  facts:["Pre-sales technical support for mid-market and enterprise clients","Workshops, demos, webinars, proposals and technical documentation","Works with product management, sales and implementation teams"],rel:["bigin","advocacy","global"]},
+ {id:"bigin",cat:"pro",title:"Leading global partner enablement for Bigin",when:"May 2024 – Present",status:"verified",
+  story:["Bigin is Zoho's CRM for small businesses. I lead partner enablement for it globally, supporting 150+ exclusive partners (and growing): consulting partners and distributors.","That means tailored training, on-the-spot deal support, helping partners design and implement customised CRM solutions, and supporting RFPs, tenders and implementation constraints."],
+  facts:["150+ exclusive Bigin partners, and growing","Training, deal assistance and implementation support","RFPs, tenders and implementation constraints"],rel:["pse","crm","saas"]},
+ {id:"advocacy",cat:"pro",title:"Partner advocacy across Zoho",when:"55+ product teams",status:"verified",
+  story:["Partners see problems first. I carry their feedback to 55+ Zoho product teams, so it can shape the roadmap of new features and services.","It's translation work: turning a frustrated partner message into something a product team can prioritise."],
+  facts:["Partner advocacy for 55+ Zoho product teams","Insights to product management on enhancements"],rel:["pse","saas"]},
+ {id:"inspire",cat:"pro",title:"Youngest presenter at Zoho Inspire Dubai",when:"2023 · Dubai",status:"verified",
+  story:["In 2023, at 19, I became the youngest presenter at Zoho Inspire Dubai, sharing CRM implementation strategies with industry leaders.","The talk was called “Exploring the Implementation Strategies”. Standing in front of an international room and explaining how to make CRM stick is still a highlight."],
+  facts:["Zoho Inspire Dubai 2023","Age 19, the youngest presenter","Topic: CRM implementation strategies"],rel:["dubai","meaintern"]},
+ {id:"global",cat:"pro",title:"Partners across MEA, UK & Europe",when:"International work",status:"verified",
+  story:["I've worked with partners and customers across MEA, the UK and Europe: different time zones, business cultures and ways of buying software.","It's taught me to listen for what isn't said, and to adapt the same product story for very different rooms."],
+  facts:["MEA, UK and Europe","Remote-first relationships"],rel:["pse","presales","meaintern"]},
+ {id:"iitm",cat:"pro",title:"BS in Data Science & Applications, IIT Madras",when:"Sep 2023 – 2027",status:"verified",
+  story:["Alongside work, I'm studying for a Bachelor of Science in Data Science and Applications at the Indian Institute of Technology, Madras.","I skipped the traditional route to start working early, and I'm filling in the technical foundations at the same time."],
+  facts:["IIT Madras, BS Data Science and Applications","Expected 2027","Studied alongside full-time work"],rel:["agents","pse"]},
+ {id:"certs",cat:"pro",title:"Growth & marketing certifications",when:"Ongoing learning",status:"verified",
+  story:["I collect certifications where they sharpen how I think about growth: Product-Led Growth (PLGC), Google Ads Measurement, and upGrad's “Get a business online”.","They sit well beside my day job: partners, products and how both grow."],
+  facts:["Product-Led Growth Micro-Certification (PLGC)","Google Ads Measurement certification","upGrad — Get a business online"],rel:["saas","marketing"]},
+ // TECH
+ {id:"crm",cat:"tech",title:"CRM & business technology",when:"Daily craft",status:"verified",
+  story:["CRM is where business meets software: pipelines, follow-ups, the small habits that decide whether a customer is remembered.","I like it because the impact is visible. A well-set-up CRM changes how a small team treats its customers."],
+  facts:["Bigin, CRM, CRM Plus and Zoho One","Implementation strategy, not just features"],rel:["bigin","saas"]},
+ {id:"saas",cat:"tech",title:"How SaaS products grow",when:"Ongoing curiosity",status:"interest",
+  story:["I'm endlessly curious about why some products spread and others stall: onboarding, pricing, partners, the first five minutes.","Sitting between customers, partners and product teams gives me an unusual view of all three."],
+  facts:["Product thinking from the field","Product-led growth certified","Interest in how ecosystems compound"],rel:["advocacy","crm","wispr","certs"]},
+ {id:"agents",cat:"tech",title:"AI & AI consulting",when:"Learning in public",status:"interest",
+  story:["AI consulting is one of my listed top skills: I help people work out where AI genuinely fits into their business, and where it doesn't.","I also use AI tools as a co-pilot. I'm a curious learner here, not an AI engineer."],
+  facts:["Top skills: AI, AI consulting, solution consulting","Uses AI tools as a collaborator"],rel:["voice","site","iitm"]},
+ {id:"voice",cat:"tech",title:"Voice interfaces & human-computer interaction",when:"Ongoing curiosity",status:"interest",
+  story:["Speaking is the oldest interface we have, and typing is still how most of us talk to computers. That gap fascinates me.","It's the reason I'm applying to Wispr Flow."],
+  facts:["Interest in voice as a primary input","Why this site has a dictation experiment"],rel:["agents","wispr","langs"]},
+ // PLACES
+ {id:"chennai",cat:"place",title:"Chennai",when:"Home base",status:"verified",place:true,
+  story:["Chennai is where I live and work, where filter coffee meets a growing tech scene, and where I plan to keep building."],facts:["Based in Chennai, Tamil Nadu"],rel:["tn","pse"]},
+ {id:"tn",cat:"place",title:"Tamil Nadu",when:"Many towns & cities",status:"verified",place:true,
+  story:["I've explored several cities across Tamil Nadu. Each has its own food, pace and way of doing business."],facts:["Multiple cities across the state"],rel:["chennai","india"]},
+ {id:"india",cat:"place",title:"Across India",when:"Multiple states",status:"verified",place:true,
+  story:["Beyond Tamil Nadu I've travelled through multiple Indian states, and every one reminds me how many Indias there are."],facts:["Multiple Indian states"],rel:["tn","travel"]},
+ {id:"srilanka",cat:"place",title:"Sri Lanka",when:"Across the water",status:"verified",place:true,
+  story:["Sri Lanka is close enough to feel familiar and different enough to feel like travel."],facts:["Visited"],rel:["travel","chennai"]},
+ {id:"dubai",cat:"place",title:"Dubai",when:"Apr 2022 – Jul 2023 · worked here",status:"verified",place:true,
+  story:["Dubai is where I spent my MEA internship, working from there between April 2022 and July 2023, and where I presented at Zoho Inspire in 2023."],facts:["Based in Dubai during the MEA internship","Zoho Inspire Dubai 2023"],rel:["inspire","meaintern"]},
+ // EXPERIMENTS
+ {id:"book",cat:"exp",title:"A sci-fi book at 15",when:"Age 15 · self-published",status:"verified",
+  story:["At 15 I self-published a sci-fi book, because why wait to start creating?","Its title, “To invent the uninvented”, is still a decent summary of how I like to work."],
+  facts:["Self-published at 15","Listed as a publication: “To invent the uninvented”"],rel:["story","writing"]},
+ {id:"writing",cat:"exp",title:"Freelance content writing",when:"Oct 2019 – Jul 2021",status:"verified",
+  story:["Content writing on Fiverr taught me to make complicated things sound simple, which I still use in every training session and demo."],
+  facts:["Freelance writer on Fiverr","Foundation for explaining products clearly"],rel:["fiverr","story","book"]},
+ {id:"marketing",cat:"exp",title:"Teaching myself digital marketing",when:"2019 – 2021",status:"experiment",
+  story:["I wanted to know how attention works and how products find people, so I taught myself digital marketing and brand awareness, with Quora as my classroom.","It later turned into a Google Ads Measurement certification."],
+  facts:["Self-taught, then certified in Google Ads Measurement"],rel:["fiverr","certs","saas"]},
+ {id:"site",cat:"exp",title:"This portfolio",when:"A weekend experiment",status:"experiment",
+  story:["You're inside it. I wanted a site that behaves like my career: connected, non-linear and a bit playful.","I designed the idea and the content and built it with AI as a co-pilot. It's a personal experiment, not production engineering."],
+  facts:["Concept and content by me","Built with AI assistance","Single HTML file, no frameworks"],rel:["agents","wispr"]},
+ {id:"wispr",cat:"exp",title:"Wispr Flow India ideas",when:"Proposal",status:"proposal",
+  story:["Three hypotheses about voice-first growth in India: code-switched dictation, ecosystem-led growth, and voice for CRM notes.","They're ideas, not products. I haven't built or tested them, which is why each one comes with a test."],
+  facts:["Not built, not validated","See the notebook section for the full thinking"],rel:["voice","saas","langs"],jump:"#wispr"},
+ // LIFE
+ {id:"langs",cat:"life",title:"Tamil, Telugu & English (and a little Hindi)",when:"Every day",status:"verified",
+  story:["Tamil and Telugu are my native languages, English is my working language, and my Hindi is limited but improving.","I move between them mid-sentence all the time, which is exactly why I care about voice tools that can keep up."],
+  facts:["Tamil: native or bilingual","Telugu: native or bilingual","English: full professional","Hindi: limited working"],rel:["voice","wispr"]},
+ {id:"guitar",cat:"life",title:"Learning guitar",when:"In progress",status:"interest",
+  story:["I'm learning guitar. I'm a beginner, and I'm enjoying being a beginner at something again."],facts:["Beginner, practising"],rel:["story"]},
+ {id:"travel",cat:"life",title:"Travelling",when:"Always planning the next one",status:"interest",
+  story:["I travel to understand how other people live and work. Every new place changes how I think about products."],facts:["Dubai, Sri Lanka, many Indian states, many Tamil Nadu cities"],rel:["india","srilanka","dubai"]},
+ {id:"story",cat:"life",title:"Storytelling & writing",when:"Since I was 15",status:"interest",
+  story:["I believe a good story beats a good feature list. It's why I write, why I wrote a book, and why I try to turn product demos into narratives."],facts:["Writing and storytelling"],rel:["book","writing","guitar"]},
+ {id:"biz",cat:"life",title:"Understanding businesses",when:"Constant curiosity",status:"interest",
+  story:["I like asking owners how their business really runs. The answer is almost never what the org chart says."],facts:["Curiosity about how companies work"],rel:["crm","saas"]}
+];
+const byId = Object.fromEntries(NODES.map(n=>[n.id,n]));
+
+/* "Built" cards: each maps to a node (for the panel) or is standalone. */
+const BUILT = {
+  verified:{label:"Verified work",c:"var(--pro)",note:"Things I actually did, at Zoho, with real partners and customers.",
+    items:[["bigin","Bigin global partner enablement","Training, deal support and implementation help for 150+ exclusive partners, plus RFPs and tenders."],
+           ["pse","Partner Solutions Engineer","Pre-sales technical support for mid-market and enterprise clients, through partners."],
+           ["advocacy","Partner advocacy","Partner feedback routed to 55+ Zoho product teams."],
+           ["inspire","Youngest presenter, Zoho Inspire Dubai","2023, at 19: CRM implementation strategies."],
+           ["presales","Presales for UK & Europe retail","CRM, CRM Plus and Zoho One demos and proposals."]]},
+  experiments:{label:"Personal experiments",c:"var(--exp)",note:"Side projects and explorations. Real, small and clearly not production software.",
+    items:[["book","A sci-fi book at 15","Self-published: “To invent the uninvented”."],
+           ["site","This portfolio","A non-linear site built with AI as a co-pilot."],
+           ["writing","Freelance writing on Fiverr","Where my explaining-things habit began."],
+           ["marketing","Teaching myself digital marketing","Quora as classroom, Google Ads Measurement as proof."]]},
+  proposed:{label:"Proposed ideas",c:"var(--place)",note:"Concepts I've researched or imagined. Not built, not tested.",
+    items:[["wispr","Wispr Flow India hypotheses","Code-switching, ecosystem growth and voice for CRM notes."],
+           ["voice","Voice-first work","What happens when typing stops being the default."]]}
+};
+
+/* =====================================================================
+   HELPERS
+   ===================================================================== */
+const $=s=>document.querySelector(s);
+const DPR=Math.min(devicePixelRatio||1,2);
+const REDUCED=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const INK='#1d1814';
+function fit(cv){const r=cv.getBoundingClientRect();cv.width=r.width*DPR;cv.height=r.height*DPR;const x=cv.getContext('2d');x.setTransform(DPR,0,0,DPR,0,0);return{ctx:x,w:r.width,h:r.height}}
+function rng(seed){let s=seed>>>0;return()=>{s=(s*1664525+1013904223)>>>0;return s/4294967296}}
+function hash(str){let h=2166136261;for(const c of str){h^=c.charCodeAt(0);h=Math.imul(h,16777619)}return h>>>0}
+const inView=(el,cb)=>new IntersectionObserver((es,o)=>es.forEach(e=>{if(e.isIntersecting){cb(e.target);o.unobserve(e.target)}}),{threshold:.12}).observe(el);
+
+document.querySelectorAll('.reveal').forEach(el=>inView(el,t=>t.classList.add('in')));
+document.querySelectorAll('[data-n]').forEach(b=>inView(b,()=>{const n=+b.dataset.n,s=b.dataset.s||'';const t0=performance.now();(function f(t){const k=Math.min(1,(t-t0)/1300);b.textContent=Math.round(n*(1-Math.pow(1-k,3)))+(k>=1?s:'');if(k<1)requestAnimationFrame(f)})(t0)}));
+
+(function(){let i=0;document.querySelectorAll('#heroTitle>span').forEach(l=>{const sv=l.querySelector('svg');const words=l.textContent.split(' ').filter(Boolean);l.textContent='';l.setAttribute('aria-hidden','true');words.forEach(w=>{const s=document.createElement('span');s.className='w';s.textContent=w+' ';s.style.animationDelay=(.3+i++*.08)+'s';l.appendChild(s)});if(sv)l.appendChild(sv)})})();
+
+/* =====================================================================
+   HERO — ink dots on paper, joined by pencil lines
+   ===================================================================== */
+(function(){
+  const cv=$('#heroCanvas');let W,H,ctx;const mouse={x:-999,y:-999};
+  const cols=Object.values(CATS).map(c=>c.c);let P=[];
+  function init(){const r=fit(cv);ctx=r.ctx;W=r.w;H=r.h;const n=Math.min(70,Math.floor(W*H/17000));const R=rng(11);
+    P=Array.from({length:n},()=>({x:R()*W,y:R()*H,vx:(R()-.5)*.28,vy:(R()-.5)*.28,r:R()<.2?7:R()*2.5+2.5,c:cols[Math.floor(R()*5)],fill:R()<.6}))}
+  addEventListener('pointermove',e=>{const b=cv.getBoundingClientRect();mouse.x=e.clientX-b.left;mouse.y=e.clientY-b.top});
+  function tick(){ctx.clearRect(0,0,W,H);
+    for(const p of P){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;
+      const dx=mouse.x-p.x,dy=mouse.y-p.y,d=Math.hypot(dx,dy);if(d<200&&d>40){p.x+=dx*.012;p.y+=dy*.012}}
+    ctx.lineWidth=1.1;ctx.setLineDash([5,5]);
+    for(let i=0;i<P.length;i++){const a=P[i];
+      for(let j=i+1;j<P.length;j++){const b=P[j],d=Math.hypot(a.x-b.x,a.y-b.y);if(d<140){ctx.strokeStyle=`rgba(29,24,20,${(1-d/140)*.38})`;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke()}}
+      const m=Math.hypot(mouse.x-a.x,mouse.y-a.y);if(m<200){ctx.strokeStyle=`rgba(200,50,30,${(1-m/200)*.7})`;ctx.setLineDash([]);ctx.lineWidth=1.6;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(mouse.x,mouse.y);ctx.stroke();ctx.setLineDash([5,5]);ctx.lineWidth=1.1}}
+    ctx.setLineDash([]);
+    for(const p of P){ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,7);if(p.fill){ctx.fillStyle=p.c;ctx.fill()}else{ctx.fillStyle='#f4ecdc';ctx.fill()}ctx.lineWidth=1.8;ctx.strokeStyle=INK;ctx.stroke()}
+    if(!REDUCED)requestAnimationFrame(tick)}
+  init();tick();addEventListener('resize',()=>{init();if(REDUCED)tick()});
+})();
+
+/* =====================================================================
+   PANEL
+   ===================================================================== */
+const panel=$('#panel');let lastFocus=null;
+function artSVG(n){const R=rng(hash(n.id)),c=CATS[n.cat].c;const pts=Array.from({length:18},()=>[R()*400,R()*260,R()*5+3]);let s='<svg viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true">';
+  pts.forEach((p,i)=>pts.forEach((q,j)=>{if(j>i&&Math.hypot(p[0]-q[0],p[1]-q[1])<110)s+=`<line x1="${p[0]}" y1="${p[1]}" x2="${q[0]}" y2="${q[1]}" stroke="${INK}" stroke-width="1.6" stroke-dasharray="6 6" opacity=".5"/>`}));
+  pts.forEach((p,i)=>s+=`<circle cx="${p[0]}" cy="${p[1]}" r="${p[2]}" fill="${i%3?'#f4ecdc':c}" stroke="${INK}" stroke-width="2"/>`);
+  return s+`<circle cx="200" cy="130" r="20" fill="${c}" stroke="${INK}" stroke-width="3"/></svg>`}
+function openNode(id){
+  const n=byId[id];if(!n)return;const c=CATS[n.cat].c;
+  lastFocus=document.activeElement;panel.style.setProperty('--c',c);
+  $('#pFrame').innerHTML=artSVG(n);
+  $('#pBody').innerHTML=`<div class="p-meta"><span class="badge" style="--c:${c}">${CATS[n.cat].name}</span><span class="when">${n.when}</span></div>
+   <h3 id="pTitle">${n.title}</h3>
+   <p class="p-status" style="color:${n.status==='proposal'?'var(--red)':c}">${STATUS[n.status]}</p>
+   <div class="story">${n.story.map(p=>`<p>${p}</p>`).join('')}</div>
+   <ul class="facts">${n.facts.map(f=>`<li>${f}</li>`).join('')}</ul>
+   ${n.jump?`<a class="btn" href="${n.jump}" data-close>Read the full ideas →</a>`:''}
+   <p class="hand" style="margin-top:28px;font-size:1.3rem">connected to →</p>
+   <div class="rel">${n.rel.map(r=>`<button data-go="${r}" style="--c:${CATS[byId[r].cat].c}">${byId[r].title}</button>`).join('')}</div>
+   <div class="slot">Real photos and links for this chapter can be dropped in here.</div>`;
+  panel.scrollTop=0;document.body.classList.add('open');panel.focus({preventScroll:true});
+}
+function closePanel(){document.body.classList.remove('open');if(lastFocus)lastFocus.focus({preventScroll:true})}
+$('#pClose').onclick=closePanel;$('#scrim').onclick=closePanel;
+addEventListener('keydown',e=>{if(e.key==='Escape')closePanel()});
+panel.addEventListener('click',e=>{const g=e.target.closest('[data-go]');if(g)openNode(g.dataset.go);if(e.target.closest('[data-close]'))closePanel()});
+
+/* =====================================================================
+   WORLD — turnable globe of chapters
+   ===================================================================== */
+(function(){
+  const cv=$('#worldCanvas'),tip=$('#tip');let ctx,W,H,R0;
+  let yaw=.6,pitch=.25,vy=.0025,drag=null,moved=0,hover=null,filter=null,autoPause=0;
+  const keys=Object.keys(CATS),centres=keys.map((k,i)=>{const y=1-(i/(keys.length-1))*1.6,r=Math.sqrt(1-y*y),t=i*2.399963+.8;return[Math.cos(t)*r,y*.92,Math.sin(t)*r]});
+  const nrm=v=>{const l=Math.hypot(...v);return v.map(a=>a/l)};
+  const groups={};NODES.forEach(n=>(groups[n.cat]=groups[n.cat]||[]).push(n));
+  keys.forEach((k,ci)=>{const g=groups[k];g.forEach((n,i)=>{const r=rng(hash(n.id));const a=i/g.length*Math.PI*2+r()*.5,rad=.2+r()*.2;
+    const c=centres[ci];const u=nrm([c[1],-c[0],0.0001]);const w=[c[1]*u[2]-c[2]*u[1],c[2]*u[0]-c[0]*u[2],c[0]*u[1]-c[1]*u[0]];
+    n.p=nrm([c[0]+(u[0]*Math.cos(a)+w[0]*Math.sin(a))*rad,c[1]+(u[1]*Math.cos(a)+w[1]*Math.sin(a))*rad,c[2]+(u[2]*Math.cos(a)+w[2]*Math.sin(a))*rad])})});
+  const bg=Array.from({length:380},(_,i)=>{const y=1-i/379*2,r=Math.sqrt(1-y*y),t=i*2.399963;return[Math.cos(t)*r,y,Math.sin(t)*r]});
+  const edges=[];NODES.forEach(n=>n.rel.forEach(r=>{if(n.id<r)edges.push([n,byId[r]])}));
+  function size(){const r=fit(cv);ctx=r.ctx;W=r.w;H=r.h;R0=Math.min(W,H)*.37}
+  function proj(p){const cy=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch);
+    let x=p[0]*cy+p[2]*sy,z=-p[0]*sy+p[2]*cy,y=p[1]*cp-z*sp;z=p[1]*sp+z*cp;const s=3/(3-z*.9);return{x:W/2+x*R0*s,y:H/2+y*R0*s,z,s}}
+  function frame(){
+    if(!drag&&!hover&&!document.body.classList.contains('open')&&!REDUCED&&performance.now()>autoPause)yaw+=vy;
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle=INK;
+    for(const p of bg){const q=proj(p);if(q.z<-.1)continue;ctx.globalAlpha=.1+q.z*.25;ctx.fillRect(q.x,q.y,1.6,1.6)}
+    ctx.globalAlpha=1;
+    const P=new Map();NODES.forEach(n=>P.set(n,proj(n.p)));
+    const on=n=>!filter||n.cat===filter;
+    ctx.setLineDash([6,6]);
+    for(const[a,b]of edges){const A=P.get(a),B=P.get(b);const act=on(a)&&on(b);const hot=hover&&(hover===a||hover===b);
+      const depth=((A.z+B.z)/2+1.2)/2.2;ctx.globalAlpha=hot?1:(act?.14+depth*.4:.05);ctx.strokeStyle=hot?'#c8321e':INK;ctx.lineWidth=hot?2.4:1.2;ctx.setLineDash(hot?[]:[6,6]);ctx.beginPath();ctx.moveTo(A.x,A.y);ctx.lineTo(B.x,B.y);ctx.stroke()}
+    ctx.setLineDash([]);ctx.globalAlpha=1;
+    const order=[...NODES].sort((a,b)=>P.get(a).z-P.get(b).z);
+    for(const n of order){const q=P.get(n);const act=on(n);const back=q.z<0;
+      const r=(n===hover?13:9)*q.s;ctx.globalAlpha=act?(back?.5:1):.15;
+      ctx.beginPath();ctx.arc(q.x,q.y,r,0,7);ctx.fillStyle=back?'#f4ecdc':CATS[n.cat].c;ctx.fill();ctx.lineWidth=2.2;ctx.strokeStyle=INK;ctx.stroke();
+      if(act&&!back&&q.z>.35||n===hover){ctx.globalAlpha=act?1:.3;ctx.font='700 19px Caveat';ctx.textAlign='left';ctx.fillStyle=INK;const t=n.title.length>26?n.title.slice(0,24)+'…':n.title;
+        ctx.lineWidth=5;ctx.strokeStyle='#ece1ca';ctx.strokeText(t,q.x+r+6,q.y+5);ctx.fillText(t,q.x+r+6,q.y+5)}}
+    ctx.globalAlpha=1;frame.P=P;requestAnimationFrame(frame)}
+  function pick(x,y){let best=null,bd=22;if(!frame.P)return null;for(const[n,q]of frame.P){if(filter&&n.cat!==filter)continue;if(q.z<-.55)continue;const d=Math.hypot(q.x-x,q.y-y);if(d<bd){bd=d;best=n}}return best}
+  function pos(e){const b=cv.getBoundingClientRect();return[e.clientX-b.left,e.clientY-b.top]}
+  cv.addEventListener('pointerdown',e=>{cv.setPointerCapture(e.pointerId);drag=pos(e);moved=0});
+  cv.addEventListener('pointermove',e=>{const[x,y]=pos(e);
+    if(drag){const dx=x-drag[0],dy=y-drag[1];moved+=Math.abs(dx)+Math.abs(dy);yaw+=dx*.006;pitch=Math.max(-1.1,Math.min(1.1,pitch+dy*.006));drag=[x,y];vy=dx*.0004||vy}
+    hover=pick(x,y);cv.style.cursor=hover?'pointer':(drag?'grabbing':'grab');
+    if(hover){tip.style.setProperty('--c',CATS[hover.cat].c);tip.innerHTML=`<small>${hover.when}</small>${hover.title}`;const q=frame.P.get(hover);tip.style.left=q.x+'px';tip.style.top=q.y+'px';tip.style.opacity=1}else tip.style.opacity=0});
+  cv.addEventListener('pointerup',e=>{const[x,y]=pos(e);drag=null;autoPause=performance.now()+2500;if(moved<6){const n=pick(x,y);if(n)openNode(n.id)}if(Math.abs(vy)<.0008)vy=.0025*(vy<0?-1:1)});
+  cv.addEventListener('pointerleave',()=>{hover=null;tip.style.opacity=0});
+  const chips=$('#chips');
+  const sync=()=>[...chips.children].forEach(x=>x.setAttribute('aria-pressed',String((x.dataset.k||null)===filter)));
+  const mk=(k,label,c,cls)=>{const b=document.createElement('button');b.className='chip '+(cls||'');b.style.setProperty('--c',c);b.innerHTML=`<i></i>${label}`;b.dataset.k=k||'';b.onclick=()=>{filter=(filter===k)?null:k;sync()};return b};
+  chips.appendChild(mk(null,'Everything',INK,'all'));keys.forEach(k=>chips.appendChild(mk(k,CATS[k].name,CATS[k].c)));sync();
+  $('#listview').innerHTML=NODES.map(n=>`<button style="--c:${CATS[n.cat].c}" data-open="${n.id}">${n.title}</button>`).join('');
+  $('#listview').onclick=e=>{const b=e.target.closest('[data-open]');if(b)openNode(b.dataset.open)};
+  size();addEventListener('resize',size);requestAnimationFrame(frame);
+})();
+
+/* =====================================================================
+   MAP — dot-matrix, hand-simplified outlines
+   ===================================================================== */
+(function(){
+  const cv=$('#mapCanvas'),tip=$('#mtip');let ctx,W,H;
+  const INDIA=[[68.2,23.6],[69.5,22.4],[70.2,21],[72,20.7],[72.8,19],[73.4,16.5],[74.1,14.8],[74.8,12.9],[75.8,11.4],[76.3,9.9],[77.1,8.3],[77.55,8.08],[78.2,8.9],[79.2,10.3],[79.85,10.3],[80.2,13.1],[80.1,15.5],[82.3,16.9],[84.7,19.2],[86.9,21.4],[88,21.6],[89,22],[88.9,24.5],[88.3,26.5],[89.8,26.7],[92,26.9],[95.2,27.7],[97.2,28.3],[96,26.5],[94.5,24],[93.2,22.4],[92.5,24.6],[91.5,25.2],[89.9,25.3],[88.1,26.4],[88,27.8],[86,27.9],[84,28.6],[81,30.2],[79,31],[78.7,32.5],[78.4,34.2],[77,35.5],[75,36.9],[74.5,34.7],[75.8,32.8],[74.5,32.5],[74,31.2],[74.9,29.5],[73,28],[70.6,27.7],[70,26],[70.2,24.5],[68.7,23.9]];
+  const SL=[[79.8,9.8],[80.4,9.6],[81.2,8.5],[81.8,7.3],[81.6,6.4],[80.6,5.9],[80,6.4],[79.8,7.5],[79.9,8.8]];
+  const UAE=[[51.6,24.3],[52.6,24.2],[54,24],[55.2,22.7],[55.7,22.9],[56,24],[56.4,24.9],[56.3,26],[55.5,25.6],[54,24.7],[52.5,24.5]];
+  const TN=[[77.55,8.08],[78.2,8.9],[79.2,10.3],[79.85,10.3],[80.3,13.4],[79.4,13.5],[78.6,13],[78,12.5],[77.6,11.8],[77,11.8],[76.6,11.3],[76.8,10.4],[77.2,9.5],[77.3,8.5]];
+  const inside=(poly,x,y)=>{let c=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const[a,b]=poly[i],[p,q]=poly[j];if((b>y)!==(q>y)&&x<(p-a)*(y-b)/(q-b)+a)c=!c}return c};
+  const PINS=[
+    {id:"chennai",lon:80.27,lat:13.08,label:"Chennai (home)",home:true},
+    {id:"tn",lon:78.4,lat:10.8,label:"Tamil Nadu"},
+    {id:"india",lon:77.6,lat:22,label:"Across India",wideOnly:true},
+    {id:"srilanka",lon:80.7,lat:7.6,label:"Sri Lanka"},
+    {id:"dubai",lon:55.3,lat:25.2,label:"Dubai",wideOnly:true}
+  ];
+  const VIEWS={wide:{cx:74,cy:20.5,span:50},south:{cx:78.2,cy:10.4,span:11}};
+  let cur={...VIEWS.wide},tgt=VIEWS.wide,hov=null;
+  function size(){const r=fit(cv);ctx=r.ctx;W=r.w;H=r.h}
+  const sc=()=>Math.min(W/(cur.span*1.15),H/(cur.span*.75));
+  const toS=(lon,lat)=>{const s=sc();return[W/2+(lon-cur.cx)*s,H/2-(lat-cur.cy)*s]};
+  const toG=(x,y)=>{const s=sc();return[cur.cx+(x-W/2)/s,cur.cy-(y-H/2)/s]};
+  function frame(){
+    for(const k of['cx','cy','span'])cur[k]+=(tgt[k]-cur[k])*.08;
+    ctx.clearRect(0,0,W,H);const step=cur.span>30?8:12;const wide=cur.span>30;
+    for(let y=step/2;y<H;y+=step)for(let x=step/2;x<W;x+=step){const[lo,la]=toG(x,y);
+      let col=null,r=1.2,a=1;
+      if(inside(TN,lo,la)){col='#c8321e';r=wide?2:3}
+      else if(inside(INDIA,lo,la)){col=INK;r=wide?1.6:2.2;a=.55}
+      else if(inside(SL,lo,la)||inside(UAE,lo,la)){col='#d98a00';r=wide?2:3}
+      if(col){ctx.globalAlpha=a;ctx.fillStyle=col;ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill()}}
+    ctx.globalAlpha=1;
+    const t=performance.now()/1000;const vis=PINS.filter(p=>!(p.wideOnly&&cur.span<30));
+    const ch=PINS[0];const[cx0,cy0]=toS(ch.lon,ch.lat);
+    ctx.lineWidth=2;ctx.strokeStyle=INK;ctx.globalAlpha=.6;
+    vis.forEach(p=>{if(p===ch)return;const[x,y]=toS(p.lon,p.lat);const mx=(cx0+x)/2,my=(cy0+y)/2-Math.hypot(x-cx0,y-cy0)*.25;
+      ctx.setLineDash([3,8]);ctx.lineDashOffset=-t*14;ctx.beginPath();ctx.moveTo(cx0,cy0);ctx.quadraticCurveTo(mx,my,x,y);ctx.stroke()});
+    ctx.setLineDash([]);ctx.globalAlpha=1;
+    for(const p of vis){const[x,y]=toS(p.lon,p.lat);p._x=x;p._y=y;const k=(Math.sin(t*2.2+p.lon)+1)/2;
+      ctx.beginPath();ctx.arc(x,y,(p.home?15:11)+k*5+(hov===p?4:0),0,7);ctx.strokeStyle=p.home?'#c8321e':'#d98a00';ctx.lineWidth=2;ctx.globalAlpha=.5*(1-k)+.2;ctx.stroke();ctx.globalAlpha=1;
+      ctx.beginPath();ctx.arc(x,y,p.home?9:7,0,7);ctx.fillStyle=p.home?'#c8321e':'#fffaf0';ctx.fill();ctx.lineWidth=2.6;ctx.strokeStyle=INK;ctx.stroke();
+      ctx.font='700 21px Caveat';ctx.textAlign='left';ctx.lineWidth=5;ctx.strokeStyle='#ece1ca';ctx.strokeText(p.label,x+16,y+6);ctx.fillStyle=INK;ctx.fillText(p.label,x+16,y+6)}
+    requestAnimationFrame(frame)}
+  const pos=e=>{const b=cv.getBoundingClientRect();return[e.clientX-b.left,e.clientY-b.top]};
+  const near=(x,y)=>PINS.find(p=>p._x!==undefined&&!(p.wideOnly&&cur.span<30)&&Math.hypot(p._x-x,p._y-y)<20);
+  cv.addEventListener('pointermove',e=>{const[x,y]=pos(e);hov=near(x,y)||null;cv.style.cursor=hov?'pointer':'default';if(hov){tip.style.setProperty('--c','var(--red)');tip.innerHTML=`<small>${byId[hov.id].when}</small>${hov.label}`;tip.style.left=hov._x+'px';tip.style.top=hov._y+'px';tip.style.opacity=1}else tip.style.opacity=0});
+  cv.addEventListener('click',e=>{const[x,y]=pos(e);const p=near(x,y);if(p)openNode(p.id)});
+  $('#maptools').onclick=e=>{const b=e.target.closest('[data-v]');if(!b)return;tgt=VIEWS[b.dataset.v];[...$('#maptools').children].forEach(x=>x.setAttribute('aria-pressed',String(x===b)))};
+  $('#placelist').innerHTML=NODES.filter(n=>n.place).map(n=>`<button data-open="${n.id}"><b>${n.title}</b><span>${n.when}</span></button>`).join('');
+  $('#placelist').onclick=e=>{const b=e.target.closest('[data-open]');if(b)openNode(b.dataset.open)};
+  size();addEventListener('resize',size);requestAnimationFrame(frame);
+})();
+
+/* =====================================================================
+   BUILT
+   ===================================================================== */
+(function(){
+  const tabs=$('#tabs'),cards=$('#cards'),hon=$('#honesty');let cur='verified';
+  Object.entries(BUILT).forEach(([k,v])=>{const b=document.createElement('button');b.className='tab';b.role='tab';b.textContent=v.label;b.dataset.k=k;tabs.appendChild(b)});
+  function render(){
+    const v=BUILT[cur];hon.style.setProperty('--c',v.c);hon.textContent=v.note;
+    [...tabs.children].forEach(b=>b.setAttribute('aria-selected',String(b.dataset.k===cur)));
+    cards.innerHTML=v.items.map(([id,t,d])=>`<button class="card" data-open="${id}" style="--c:${v.c}"><span class="badge">${STATUS[byId[id].status]}</span><h3>${t}</h3><p>${d}</p><span class="more">open the story →</span></button>`).join('')}
+  tabs.onclick=e=>{const b=e.target.closest('[data-k]');if(b){cur=b.dataset.k;render()}};
+  cards.onclick=e=>{const b=e.target.closest('[data-open]');if(b)openNode(b.dataset.open)};
+  render();
+})();
+
+/* =====================================================================
+   VOICE EXPERIMENT + LINKS
+   ===================================================================== */
+(function(){
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;const mic=$('#mic'),note=$('#note'),st=$('#vstatus');let rec=null,on=false,base='';
+  $('#copy').onclick=async()=>{try{await navigator.clipboard.writeText(note.value);st.textContent='copied ✓'}catch{note.select();st.textContent='press ⌘/Ctrl+C'}};
+  const L=Object.entries(CONFIG.links).filter(([,u])=>u);
+  $('#links').innerHTML=L.map(([n,u])=>`<a class="btn" href="${u}" target="_blank" rel="noopener">${n} ↗</a>`).join('');
+  if(!SR){mic.disabled=true;mic.style.opacity=.5;st.textContent='your browser has no speech recognition — try Chrome or Safari';return}
+  function stop(){on=false;mic.classList.remove('on');mic.setAttribute('aria-pressed','false');$('#miclabel').textContent='Start dictating';if(rec)rec.stop()}
+  mic.onclick=()=>{if(on)return stop();rec=new SR();rec.lang=$('#lang').value;rec.interimResults=true;rec.continuous=true;base=note.value?note.value.trimEnd()+' ':'';
+    rec.onresult=e=>{let t='';for(let i=0;i<e.results.length;i++)t+=e.results[i][0].transcript;note.value=base+t};
+    rec.onerror=e=>{st.textContent=e.error==='not-allowed'?'microphone permission denied':'mic error: '+e.error;stop()};
+    rec.onend=()=>{if(on)stop()};
+    rec.start();on=true;mic.classList.add('on');mic.setAttribute('aria-pressed','true');$('#miclabel').textContent='Listening… tap to stop';st.textContent=''};
+})();
+</script>
+</body>
+</html>
