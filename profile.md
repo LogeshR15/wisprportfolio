@@ -108,7 +108,7 @@ These are some of the things I'd love to explore if I became part of the Wispr F
 ## Where to find what you are looking for
 
 - **Creativity**: This globe, where every light is a version of me, plus a guide that builds a route for you. Evidence: [The house of unfinished things](https://logeshr15.github.io/wisprportfolio/#/story/shelf) · [A ride home with strangers](https://logeshr15.github.io/wisprportfolio/#/story/mumbai)
-- **Understanding of voice**: I record a podcast where I think out loud, and I want voice to reach people who type in a second language. Evidence: [Lokey thoughts, my podcast](https://logeshr15.github.io/wisprportfolio/#/story/podcast) · [What I'd do in week one](https://logeshr15.github.io/wisprportfolio/#/read)
+- **Understanding of voice**: I record a podcast where I think out loud, and I want voice to reach people who type in a second language. Evidence: [Lokey thoughts, my podcast](https://logeshr15.github.io/wisprportfolio/#/story/podcast) · [What if I joined Wispr Flow?](https://logeshr15.github.io/wisprportfolio/#/join)
 - **Builds independently**: An open-source tool nobody asked me to build, and a shelf of things I started alone. Evidence: [Screener MCP](https://logeshr15.github.io/wisprportfolio/#/story/screener) · [The house of unfinished things](https://logeshr15.github.io/wisprportfolio/#/story/shelf)
 - **Ownership**: I lead partner enablement for Bigin, presented at 19, ran a shop as a schoolboy, and organized a trek for my friends. Evidence: [Leading Bigin partner enablement](https://logeshr15.github.io/wisprportfolio/#/story/bigin) · [Zoho Inspire, at 19](https://logeshr15.github.io/wisprportfolio/#/story/inspire) · [The Diwali shop](https://logeshr15.github.io/wisprportfolio/#/story/diwali) · [Organizing the Kudremukh trek](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh)
 - **Understands India**: I grew up in a small business in Trichy, and I have been to many parts of the country. Evidence: [The family business](https://logeshr15.github.io/wisprportfolio/#/story/father) · [A ride home with strangers](https://logeshr15.github.io/wisprportfolio/#/story/mumbai) · [The globe](https://logeshr15.github.io/wisprportfolio/#/globe)
@@ -769,15 +769,3 @@ For a small-business CRM, a room built for micro and small enterprises is the ri
 Advantage Vidarbha 2025 · Nagpur · Industrial expo · MSME · Micro and small enterprises · Association for Industrial Development
 
 Read more: [The Hitavada on the expo](https://www.thehitavada.com/Encyc/2025/1/25/-Advantage-Vidarbha-2025-from-Feb-7-to-9.html) · [what exhibitors said afterwards](https://www.thehitavada.com/Encyc/2025/2/10/Advantage-Vidarbha-expo-generates-substantial-inquiries-for-participants-products-and-services.html)
-
-### What I'd do in week one at Wispr Flow
-
-A proposal, not a promise
-
-- **Day 1.** Use Wispr Flow for everything in Tamil, Telugu, English and the little Hindi I have. Write down every place it breaks.
-
-- **Day 2.** Read what the India team has already tried. Ask what failed, so I do not repeat it.
-
-- **Days 3 and 4.** Talk to ten people from my own life who type a lot: small-business owners, creators, colleagues. Watch them dictate for the first time.
-
-- **Day 5.** Write one page: what I saw, and what I would test first.
