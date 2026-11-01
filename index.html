@@ -249,6 +249,26 @@ body.open #panel{transform:none}
 .quote figcaption{margin-top:8px;font-size:.88rem;font-weight:700;color:var(--mute)}
 .closer{margin-top:18px;font-size:1.2rem;font-weight:800;letter-spacing:-.02em;color:var(--burg)}
 
+.homegrid{position:relative}
+.cue{position:absolute;left:50%;bottom:12px;transform:translateX(-50%);font-weight:700;font-size:.85rem;color:var(--green);padding:6px 14px;border-radius:999px;border:1px solid var(--hair);background:rgba(255,255,235,.92)}
+.cue:hover{background:var(--lav)}
+@media(max-width:1000px){.cue{bottom:4px;font-size:.78rem;padding:4px 12px}}
+.speak{max-width:900px;margin:0 auto;padding:84px 20px 90px}
+.speak h2{font-size:clamp(2.2rem,6vw,3.8rem);margin-bottom:18px}
+.speak p{margin:0 0 14px;max-width:40em}
+.speedrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:26px 0}
+.sp{background:var(--stone);border-radius:24px;padding:20px 20px 18px}
+.sp b{display:block;font-size:2.4rem;font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--green)}
+.sp span{display:block;margin-top:8px;font-size:.88rem;color:#444}
+.sp.hot{background:var(--lav)}
+.shots{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:8px 0 28px}
+.shots figure{background:#fff;border:1px solid var(--soft);border-radius:24px;overflow:hidden}
+.shots img{display:block;width:100%;height:auto}
+.shots figcaption{padding:12px 16px;font-size:.88rem;color:#444}
+@media(max-width:760px){.shots{grid-template-columns:1fr}}
+.speakline{font-size:1.25rem;font-weight:700;color:var(--burg)}
+.speakbig{font-size:clamp(2rem,6vw,3.4rem);font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--green);margin-top:30px}
+
 </style>
 <noscript><style>.view{display:block!important;min-height:0!important}#v-home{height:auto!important}.needs-js{display:none}</style></noscript>
 </head>
@@ -276,7 +296,35 @@ body.open #panel{transform:none}
       </div>
     </div>
     <div class="homeglobe"><canvas id="cvHome" aria-hidden="true"></canvas></div>
+    <button class="cue" type="button" onclick="document.getElementById('speak').scrollIntoView({behavior:'smooth'})">Don't type. Just speak. &darr;</button>
   </div>
+
+  <div class="speak" id="speak">
+    <h2>Don't type. Just speak.</h2>
+    <p>During my school days, I attended typing classes to improve my typing speed. Over the years I kept improving it, because I believed typing faster meant being more productive.</p>
+    <p>Today, my typing speed is <b>61 WPM</b>. But Wispr Flow shows my dictation speed is <b>152 WPM</b>. That's almost 2.5 times my typing speed.</p>
+
+    <div class="speedrow">
+      <div class="sp"><b>61</b> <span>words per minute typing, at 100% accuracy</span></div>
+      <div class="sp hot"><b>152</b> <span>words per minute speaking, with Wispr Flow</span></div>
+      <div class="sp"><b>2.5x</b> <span>faster by voice</span></div>
+      <div class="sp"><b>Top 0.1%</b> <span>for speed, as shown in Wispr Flow Insights</span></div>
+    </div>
+
+    <div class="shots">
+      <figure><img src="images/typing-test.png" width="1818" height="968" loading="lazy" alt="Typing test result: 61 words per minute with 100% accuracy and no typos, a net speed of 61 WPM. Earlier attempts in the chart scored 9, 14 and 13 WPM."><figcaption>My typing test: 61 WPM, 100% accuracy, no typos.</figcaption></figure>
+      <figure><img src="images/wispr-insights.webp" width="2000" height="1347" loading="lazy" alt="Wispr Flow Insights: 152 words per minute, top 0.1%, 198 fixes made by Flow, 8,217 total words dictated, a one-day streak with a longest streak of 8 days."><figcaption>My Wispr Flow Insights: 152 words per minute, 8,217 words dictated, 198 fixes made by Flow, longest streak 8 days.</figcaption></figure>
+    </div>
+
+    <p>And here's a funny little story.</p>
+    <p>While building this entire portfolio, I barely had to touch my keyboard. I was mostly speaking my thoughts and letting Wispr Flow turn them into words. I love writing, but I realised we often confuse the action of typing with the actual process of writing. Writing is articulating your thoughts in a structured way. When I speak, I give more context than I do when I write, because typing is a physical limitation.</p>
+    <p>The typing scores of 9, 14 and 13 WPM you see in the chart? Those belong to my current manager's kid. He was impressed by my typing speed and wanted to learn how to type faster.</p>
+    <p>Maybe it's time I tell him something different.</p>
+    <p class="speakline">You don't necessarily need to learn to type faster anymore. You can just speak.</p>
+    <p>That's the productivity shift I experienced with Wispr Flow.</p>
+    <p class="speakbig">Don't type. Just speak.</p>
+  </div>
+  <!-- END SPEAK -->
 </section>
 
 <!-- ============ GLOBE ============ -->

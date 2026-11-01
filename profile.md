@@ -8,6 +8,39 @@ Contact: https://www.linkedin.com/in/logesh-ramasamy
 
 Hello, I'm Logesh Ramasamy: I explore, I experiment, I build. I'm a partner solutions engineer at Zoho, exploring AI, products and business, and I'm applying to the Wispr Flow India growth team.
 
+## Don't type. Just speak.
+
+During my school days, I attended typing classes to improve my typing speed. Over the years I kept improving it, because I believed typing faster meant being more productive.
+
+Today, my typing speed is **61 WPM**. But Wispr Flow shows my dictation speed is **152 WPM**. That's almost 2.5 times my typing speed.
+
+**61** words per minute typing, at 100% accuracy
+**152** words per minute speaking, with Wispr Flow
+**2.5x** faster by voice
+**Top 0.1%** for speed, as shown in Wispr Flow Insights
+
+![Typing test result: 61 words per minute with 100% accuracy and no typos, a net speed of 61 WPM. Earlier attempts in the chart scored 9, 14 and 13 WPM.](https://logeshr15.github.io/wisprportfolio/images/typing-test.png)
+
+My typing test: 61 WPM, 100% accuracy, no typos.
+
+![Wispr Flow Insights: 152 words per minute, top 0.1%, 198 fixes made by Flow, 8,217 total words dictated, a one-day streak with a longest streak of 8 days.](https://logeshr15.github.io/wisprportfolio/images/wispr-insights.webp)
+
+My Wispr Flow Insights: 152 words per minute, 8,217 words dictated, 198 fixes made by Flow, longest streak 8 days.
+
+And here's a funny little story.
+
+While building this entire portfolio, I barely had to touch my keyboard. I was mostly speaking my thoughts and letting Wispr Flow turn them into words. I love writing, but I realised we often confuse the action of typing with the actual process of writing. Writing is articulating your thoughts in a structured way. When I speak, I give more context than I do when I write, because typing is a physical limitation.
+
+The typing scores of 9, 14 and 13 WPM you see in the chart? Those belong to my current manager's kid. He was impressed by my typing speed and wanted to learn how to type faster.
+
+Maybe it's time I tell him something different.
+
+You don't necessarily need to learn to type faster anymore. You can just speak.
+
+That's the productivity shift I experienced with Wispr Flow.
+
+Don't type. Just speak.
+
 ## What if I joined Wispr Flow?
 
 A few opportunities I'd love to explore.
