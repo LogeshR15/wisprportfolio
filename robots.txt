@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://logeshr15.github.io/wisprportfolio/sitemap.xml

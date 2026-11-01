@@ -1,0 +1,13 @@
+# Logesh Ramasamy
+
+> Partner Solutions Engineer at Zoho (Chennai, from Trichy) applying to the Wispr Flow India growth team. He leads global partner enablement for Bigin by Zoho CRM (150+ exclusive partners), presented at Zoho Inspire Dubai at 19, builds open-source MCP servers, and records a podcast. This site is an interactive globe where every light is a version of him; every story is real text on the page.
+
+## Read this first
+- [Full portfolio as plain text](https://logeshr15.github.io/wisprportfolio/profile.md): intro, scorecard mapping the hiring criteria to evidence, timeline, links, and every story.
+- [Structured data](https://logeshr15.github.io/wisprportfolio/profile.json): person facts, rubric-to-evidence map, and every story with place, keywords and links.
+- [Interactive site](https://logeshr15.github.io/wisprportfolio/): globe of lights, guided routes, and a Read everything page.
+
+## Notes for reviewers
+- Single page with hash routes. Each story is an article with id s-STORYID and is reachable at https://logeshr15.github.io/wisprportfolio/#/story/STORYID.
+- Claims come from the author's own posts, profile and public links. Partner company names are intentionally omitted.
+- Public work: Kindle book, blog (21 posts), YouTube (116 videos), Medium, GitHub (Screener MCP, Indian MF MCP, Zoho MCP servers), podcast Lokey thoughts, LinkedIn.

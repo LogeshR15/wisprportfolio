@@ -1,0 +1,875 @@
+{
+ "site": "https://logeshr15.github.io/wisprportfolio/",
+ "purpose": "Portfolio for the Wispr Flow India growth hiring challenge",
+ "person": {
+  "name": "Logesh Ramasamy",
+  "based_in": "Chennai, Tamil Nadu, India",
+  "from": "Trichy, Tamil Nadu",
+  "current_role": "Partner Solutions Engineer / Solution Architect, Zoho (since July 2023); global partner enablement for Bigin by Zoho CRM (since May 2024)",
+  "languages": {
+   "Tamil": "native",
+   "Telugu": "native",
+   "English": "full professional",
+   "Hindi": "limited working"
+  },
+  "education": [
+   "BS Data Science and Applications, IIT Madras (Sep 2023 to 2027)",
+   "Zoho Schools of Learning (from July 2021)"
+  ],
+  "certifications": [
+   "Product-Led Growth Micro-Certification (PLGC)",
+   "Google Ads Measurement",
+   "upGrad: Get a business online"
+  ],
+  "numbers": {
+   "bigin_exclusive_partners": "150+",
+   "zoho_product_teams_partner_feedback": "55+",
+   "inspire_dubai_audience": "roughly 300 to 400 partners",
+   "screener_mcp_github": "20 stars, 14 forks, 3 contributors (Nov 2026)"
+  },
+  "links": {
+   "linkedin": "https://www.linkedin.com/in/logesh-ramasamy",
+   "github": "https://github.com/LogeshR15",
+   "blog": "https://tostartastartup.blogspot.com/",
+   "youtube": "https://www.youtube.com/@logeshviews5089",
+   "medium": "https://medium.com/@logeshl2003",
+   "book": "https://www.amazon.com/dp/B07X3P3749",
+   "podcast": "https://open.spotify.com/show/56PZhMcxq43aoVfZRn7RpQ"
+  }
+ },
+ "rubric": [
+  {
+   "criterion": "Creativity",
+   "summary": "This globe, where every light is a version of me, plus a guide that builds a route for you.",
+   "evidence": [
+    {
+     "label": "The house of unfinished things",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/shelf"
+    },
+    {
+     "label": "A ride home with strangers",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/mumbai"
+    }
+   ]
+  },
+  {
+   "criterion": "Understanding of voice",
+   "summary": "I record a podcast where I think out loud, and I want voice to reach people who type in a second language.",
+   "evidence": [
+    {
+     "label": "Lokey thoughts, my podcast",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/podcast"
+    },
+    {
+     "label": "What I'd do in week one",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/read"
+    }
+   ]
+  },
+  {
+   "criterion": "Builds independently",
+   "summary": "An open-source tool nobody asked me to build, and a shelf of things I started alone.",
+   "evidence": [
+    {
+     "label": "Screener MCP",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/screener"
+    },
+    {
+     "label": "The house of unfinished things",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/shelf"
+    }
+   ]
+  },
+  {
+   "criterion": "Ownership",
+   "summary": "I lead partner enablement for Bigin, presented at 19, ran a shop as a schoolboy, and organized a trek for my friends.",
+   "evidence": [
+    {
+     "label": "Leading Bigin partner enablement",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/bigin"
+    },
+    {
+     "label": "Zoho Inspire, at 19",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/inspire"
+    },
+    {
+     "label": "The Diwali shop",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/diwali"
+    },
+    {
+     "label": "Organizing the Kudremukh trek",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/kudremukh"
+    }
+   ]
+  },
+  {
+   "criterion": "Understands India",
+   "summary": "I grew up in a small business in Trichy, and I have been to many parts of the country.",
+   "evidence": [
+    {
+     "label": "The family business",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/father"
+    },
+    {
+     "label": "A ride home with strangers",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/mumbai"
+    },
+    {
+     "label": "The globe",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/globe"
+    }
+   ]
+  },
+  {
+   "criterion": "Communicates clearly",
+   "summary": "Short sentences, every story as plain text on this page, a podcast you can hear, and a trek guide people still message me about.",
+   "evidence": [
+    {
+     "label": "Read everything",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/read"
+    },
+    {
+     "label": "Lokey thoughts (podcast)",
+     "url": "https://open.spotify.com/show/56PZhMcxq43aoVfZRn7RpQ"
+    },
+    {
+     "label": "Kudremukh trek write-up",
+     "url": "https://logeshr15.github.io/wisprportfolio/#/story/kudremukh"
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "father",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/father",
+   "title": "The family business: helping my parents",
+   "place": "Trichy",
+   "group": "",
+   "age_at_time": null,
+   "summary": "I learned how a business works by helping my parents run theirs.",
+   "text": "My parents run a family business: wholesale and manufacturing of home appliance covers. My father and mother run it together, and it ran from the first floor of our house.\n\nI have helped with every part of it since I was a child. I watched how it worked and pitched in with the operations: sales, buying stock, and calling people to collect the money they owed.\n\nThat is how my childhood went.",
+   "keywords": [],
+   "links": []
+  },
+  {
+   "id": "diwali",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/diwali",
+   "title": "The Diwali roadside shop",
+   "place": "Trichy",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Three or four days a year, I ran a shop.",
+   "text": "Every Diwali we set up a roadside shop, and we sold curtains. It only ran for three or four days around Diwali.\n\nIn 8th standard, around 2016 or 2017, my father gave me the responsibility of running one of the shops. I earned roughly ₹8,000 to ₹10,000.",
+   "keywords": [],
+   "links": []
+  },
+  {
+   "id": "phone",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/phone",
+   "title": "My first phone: a Lenovo K5",
+   "place": "Trichy",
+   "group": "",
+   "age_at_time": null,
+   "summary": "The Diwali shop paid for the phone that opened up the world.",
+   "text": "With the money from the Diwali shop I bought my first phone, a Lenovo K5. I did not know it then, but it became my way out into the world beyond the traditional business I had been learning.\n\nI did not have a laptop, so everything I did in those years, from the blogs to the writing to the affiliate experiments, I did on my mobile.",
+   "keywords": [],
+   "links": []
+  },
+  {
+   "id": "writer",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/writer",
+   "title": "I wanted to write lyrics for cinema",
+   "place": "Trichy",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Storytelling came first.",
+   "text": "Around the same time, I knew I wanted to be a writer. More specifically, I wanted to be a lyricist in cinema. Telling stories is what I love to do, and for a while I thought I would go into cinema.\n\nThat love of writing led to my blog and, later, to my book.",
+   "keywords": [],
+   "links": [
+    {
+     "text": "my writing on Medium",
+     "url": "https://medium.com/@logeshl2003"
+    }
+   ]
+  },
+  {
+   "id": "blog",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/blog",
+   "title": "A blog nobody read",
+   "place": "Trichy",
+   "group": "",
+   "age_at_time": null,
+   "summary": "No views taught me what SEO means.",
+   "text": "In 9th standard I was pulled in two directions. On one side was writing. On the other was e-commerce, because our family business was slowly thinking about selling online. I learned how to sell on Amazon, along with a lot of other things.\n\nThen I started a blog, and nobody came. That is how I found out what SEO means. I took many online courses in digital marketing and social media marketing, and I learned that you have to build distribution, not just write. So I became very active on Quora, and Quora began sending lots of visitors to my website.\n\nI ran several blogs. One of them is To Start A Startup. The others were mostly affiliate-marketing experiments where I posted things at random. They were experiments more than professional blogs, and I did not have a laptop, so I ran all of them from my mobile.",
+   "keywords": [
+    "SEO · Distribution · Quora · Digital marketing · Social media marketing · E-commerce · Amazon"
+   ],
+   "links": [
+    {
+     "text": "read To Start A Startup",
+     "url": "https://tostartastartup.blogspot.com/"
+    }
+   ]
+  },
+  {
+   "id": "affiliate",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/affiliate",
+   "title": "Affiliate marketing and other small experiments",
+   "place": "Trichy",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Random, small experiments while I learned distribution.",
+   "text": "During 10th and 11th standard I ran lots of small experiments around my writing, and affiliate marketing was one of them.\n\nI signed up with Amazon and promoted a few products, like the best smartphone to buy under ₹5,000. I was also reading lots of books during the lockdown, so I posted about the books and tried to promote them on Quora, on other sites and on my blogs. It was mostly Amazon. I also signed up with a few SaaS products, Mailchimp among them.",
+   "keywords": [],
+   "links": []
+  },
+  {
+   "id": "book",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/book",
+   "title": "To invent the uninvented: my self-published book",
+   "place": "Trichy",
+   "group": "",
+   "age_at_time": null,
+   "summary": "I wrote a sci-fi book to learn how publishing works.",
+   "text": "At 15, in 11th standard, I wrote a science fiction book called *To invent the uninvented* and self-published it on Amazon as a Kindle book in August 2019. I wanted to understand how publishing works, and to be able to call myself a published author.\n\nIt is rated 5.0 out of 5 on Amazon.",
+   "keywords": [],
+   "links": [
+    {
+     "text": "see the book on Amazon",
+     "url": "https://www.amazon.com/dp/B07X3P3749"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/shelf",
+   "title": "The house of unfinished things",
+   "place": "Trichy",
+   "group": "",
+   "age_at_time": null,
+   "summary": "A shelf of projects: what I tried, why each one stopped, what I kept.",
+   "text": "Home is where I keep the things I started. Most of them are unfinished. I would rather show them than hide them, because each one left me with something I still use.\n\n#### The blog: To Start A Startup\n- **What I tried:** 21 posts between June 2020 and May 2025 on To Start A Startup: marketing case studies on Indian brands, and pull marketing in India in English and Hindi. I also ran several experimental blogs, all from my mobile.\n- **What I kept:** SEO, and how to find readers on Quora.\n\n#### The YouTube channel: Logesh views\n- **What I tried:** A technical-trading channel I started around the end of 12th standard. Today: 116 videos and 226 subscribers.\n\n#### Selling on Amazon\n- **What I tried:** When my father's business started looking at e-commerce, I learned how selling on Amazon works (9th standard).\n\n#### Social media for local brands\n- **What I tried:** I freelanced as a social media marketer for a few small brands in my hometown.\n\n#### The sci-fi book: To invent the uninvented\n- **What I tried:** I wrote it and self-published it as a Kindle book in August 2019. It is rated 5.0 out of 5. This one is not unfinished: it shipped.\n- **Why it stopped:** It didn't stop. It's the one I finished.\n- **What I kept:** How publishing really works.",
+   "keywords": [],
+   "links": [
+    {
+     "text": "read the blog",
+     "url": "https://tostartastartup.blogspot.com/"
+    },
+    {
+     "text": "watch the YouTube channel",
+     "url": "https://www.youtube.com/@logeshviews5089"
+    },
+    {
+     "text": "see the book on Amazon",
+     "url": "https://www.amazon.com/dp/B07X3P3749"
+    }
+   ]
+  },
+  {
+   "id": "zsl",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/zsl",
+   "title": "Zoho Schools of Learning: learning by doing",
+   "place": "Chennai",
+   "group": "Professional: Zoho",
+   "age_at_time": null,
+   "summary": "I chose learning by doing over a traditional college.",
+   "text": "In July 2021 I chose learning by doing over traditional education and joined Zoho Schools of Learning as a student intern. It is contextual: you learn by doing real work.\n\nI moved through content writing, product management, marketing, sales, pre-sales and customer support, learned from regular guest lectures by experts who work at Zoho, and built my public speaking and leadership skills. I stayed until July 2023.",
+   "keywords": [
+    "Zoho Schools of Learning",
+    "Learning by doing",
+    "Pre-sales",
+    "Marketing",
+    "Public speaking"
+   ],
+   "links": []
+  },
+  {
+   "id": "presales",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/presales",
+   "title": "Presales intern for the UK and Europe",
+   "place": "Chennai",
+   "group": "Professional: Zoho",
+   "age_at_time": null,
+   "summary": "My first customer-facing role, with UK and European retailers.",
+   "text": "From April to August 2022 I worked as a pre-sales engineer intern for the UK and Europe, helping retail businesses see how Zoho CRM, CRM Plus and Zoho One could fit the way they work.\n\nI ran consultations, presentations and custom demos, listened to what customers needed and advised them on the right products. I worked with the sales team on proposals, with the product development team on user behaviour and customer feedback, and I researched competitors and retail trends so the team had market intelligence.",
+   "keywords": [
+    "Pre-sales",
+    "CRM",
+    "CRM Plus",
+    "Zoho One",
+    "UK and Europe",
+    "Retail",
+    "Competitor analysis"
+   ],
+   "links": []
+  },
+  {
+   "id": "meaintern",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/meaintern",
+   "title": "Partner solutions intern, Middle East and Africa",
+   "place": "Chennai",
+   "group": "Professional: Zoho",
+   "age_at_time": null,
+   "summary": "Working with partners across MEA, from Dubai.",
+   "text": "From April 2022 to July 2023 I was a Partner Solutions Engineer intern for Zoho's Middle East and Africa region, working from Dubai. I had the same responsibilities as the full-time role.\n\nI used that time to grow my technical skills, product knowledge and feel for industry trends, so I could offer partners better solutions. The highlight was representing Zoho at Zoho Inspire Dubai in 2023. [Read that story.](https://logeshr15.github.io/wisprportfolio/#/story/inspire)",
+   "keywords": [
+    "Partner enablement",
+    "MEA",
+    "Dubai",
+    "Pre-sales",
+    "Zoho Inspire"
+   ],
+   "links": []
+  },
+  {
+   "id": "pse",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/pse",
+   "title": "Partner Solutions Engineer",
+   "place": "Chennai",
+   "group": "Professional: Zoho",
+   "age_at_time": null,
+   "summary": "Helping partners design the right Zoho solution for their clients.",
+   "text": "Since July 2023 I have been a Partner Solutions Engineer at Zoho. I work with Zoho's partners to give pre-sales technical support to mid-market and enterprise clients. I help partners understand what a client needs, then design a solution from Zoho's product portfolio.\n\nIn practice it is partner-channel work. I am a trusted point of contact for their technical needs, I build plans to deepen their Zoho skills in a particular industry or area, and I run workshops, demos, consultations, webinars and product showcases. I write the sales proposals and technical documentation they use with clients, and I explain customer requirements to implementation and project teams so delivery runs smoothly.\n\nI also carry what partners tell me back to Zoho. I speak for partners across 55+ Zoho product teams, and I work with product management on enhancements.",
+   "keywords": [
+    "Partner solutions",
+    "Pre-sales",
+    "Solution architecture",
+    "Partner advocacy",
+    "Webinars",
+    "Proposals"
+   ],
+   "links": [
+    {
+     "text": "my LinkedIn profile",
+     "url": "https://www.linkedin.com/in/logesh-ramasamy"
+    }
+   ]
+  },
+  {
+   "id": "bigin",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/bigin",
+   "title": "Leading partner enablement for Bigin",
+   "place": "Chennai",
+   "group": "Professional: Zoho",
+   "age_at_time": null,
+   "summary": "150+ exclusive partners, and growing.",
+   "text": "Since May 2024 I have led global partner enablement for Bigin, Zoho's CRM for small businesses. I support 150+ exclusive partners, and the number keeps growing. They are consulting partners and distributors.\n\nI give in-depth product training, help partners on live deals with strategic input, and guide them in designing and implementing customized CRM solutions. I also support RFPs and tenders, help resolve implementation constraints, and keep partners up to date on new features and best practices.\n\nIt is channel growth in practice: helping a network of partners sell and deliver one product in their own markets. I am passionate about scaling partner success.",
+   "keywords": [
+    "Partner enablement",
+    "Bigin CRM",
+    "Channel partners",
+    "Distributors",
+    "RFPs and tenders",
+    "Training"
+   ],
+   "links": []
+  },
+  {
+   "id": "route",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/route",
+   "title": "My partner enablement route",
+   "place": "Chennai",
+   "group": "Professional: Zoho",
+   "age_at_time": null,
+   "summary": "Cities, partners and events, from Dubai to Nagpur.",
+   "text": "Partner enablement is a field job. These are the places it has taken me, each with its own story on this globe.\n\n- **[Dubai, 2022 to 2023:](https://logeshr15.github.io/wisprportfolio/#/story/inspire)** my Middle East and Africa internship, and presenting at Zoho Inspire.\n- **[Sri Lanka, September 2023:](https://logeshr15.github.io/wisprportfolio/#/story/srilanka)** CLICK 2023, a channel partner's annual conference.\n- **[Delhi, 2024:](https://logeshr15.github.io/wisprportfolio/#/story/delhimeetup)** the Zoho Partner Meetup, and [Coffee with Xscale](https://logeshr15.github.io/wisprportfolio/#/story/xscale) at IIT Delhi.\n- **[Mumbai, July 2024:](https://logeshr15.github.io/wisprportfolio/#/story/mumbaimeetup)** the final stop of the Zoho Partner Meetup series.\n- **[Salem, August 2024:](https://logeshr15.github.io/wisprportfolio/#/story/salem)** BNI Member Day, with a consulting partner.\n- **[Dubai, October 2024:](https://logeshr15.github.io/wisprportfolio/#/story/gitex)** partner visits, and the Zoho booth at GITEX.\n- **[Rajkot, 2024:](https://logeshr15.github.io/wisprportfolio/#/story/gujarat)** our yearly partner enablement meeting.\n- **[Nagpur, February 2025:](https://logeshr15.github.io/wisprportfolio/#/story/nagpur)** Advantage Vidarbha, showcasing Bigin with a partner.\n- **[Kolkata:](https://logeshr15.github.io/wisprportfolio/#/story/kolkata)** training sessions for distributor and channel partners.\n\nThe thread through all of it: help partners sell and deliver Zoho to their own customers, and carry what they tell me back to the product teams.",
+   "keywords": [
+    "Partner enablement",
+    "Channel partners",
+    "Partner meetups",
+    "Field enablement",
+    "Events",
+    "Bigin CRM",
+    "SMB",
+    "Partnerships"
+   ],
+   "links": []
+  },
+  {
+   "id": "aipartners",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/aipartners",
+   "title": "Enabling partners on AI",
+   "place": "Chennai",
+   "group": "Professional: Zoho",
+   "age_at_time": null,
+   "summary": "Today I also help partners work with AI.",
+   "text": "Today I also enable Zoho's partners on AI. I help them understand what it can do and how to use it with their own clients, alongside my Bigin work.",
+   "keywords": [],
+   "links": []
+  },
+  {
+   "id": "screener",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/screener",
+   "title": "Screener MCP: an open-source tool I built",
+   "place": "Chennai",
+   "group": "Personal",
+   "age_at_time": null,
+   "summary": "A tool I wanted to exist, so I built it, and other people use it.",
+   "text": "I built Screener MCP, an open-source server that connects Screener.in to Claude, so I can research Indian stocks by talking to an AI. I am into investing and I wanted the tool to exist.\n\nOn GitHub it has 20 stars, 14 forks and 3 contributors (checked November 2026). I later built a second server, for Indian mutual funds.",
+   "keywords": [],
+   "links": [
+    {
+     "text": "Screener MCP on GitHub",
+     "url": "https://github.com/LogeshR15/screener-mcp"
+    },
+    {
+     "text": "Indian MF MCP",
+     "url": "https://github.com/LogeshR15/indian-mf-mcp"
+    }
+   ]
+  },
+  {
+   "id": "mfmcp",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/mfmcp",
+   "title": "Indian Mutual Funds MCP",
+   "place": "Chennai",
+   "group": "Personal",
+   "age_at_time": null,
+   "summary": "A second MCP server, for mutual funds.",
+   "text": "My second MCP server is for Indian mutual funds. It gives Claude NAV, portfolio and document evidence, so it can research a fund and show where each answer came from.\n\nI built it alongside Screener MCP, because I am into investing and wanted to research funds and stocks by talking to an AI.",
+   "keywords": [],
+   "links": [
+    {
+     "text": "Indian MF MCP on GitHub",
+     "url": "https://github.com/LogeshR15/indian-mf-mcp"
+    }
+   ]
+  },
+  {
+   "id": "zohotools",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/zohotools",
+   "title": "MCP servers for Zoho products",
+   "place": "Chennai",
+   "group": "Personal",
+   "age_at_time": null,
+   "summary": "I build around the Zoho products I work with.",
+   "text": "I also build around the Zoho products I work with. I made an MCP server that connects Claude to Zoho CRM, and another that exposes the Zoho FSM REST API to Claude as tools. I also wrote a Claude Code skill for building Zoho CRM widgets, covering the ZET CLI and the JavaScript SDK.\n\nAll three are open on my GitHub.",
+   "keywords": [],
+   "links": [
+    {
+     "text": "Zoho CRM MCP",
+     "url": "https://github.com/LogeshR15/zoho-crm-mcpappp"
+    },
+    {
+     "text": "Zoho FSM MCP",
+     "url": "https://github.com/LogeshR15/zoho-fsm-mcp"
+    },
+    {
+     "text": "Zoho CRM widget skill",
+     "url": "https://github.com/LogeshR15/zohoCRM-widgetskills"
+    }
+   ]
+  },
+  {
+   "id": "podcast",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/podcast",
+   "title": "Lokey thoughts: my podcast",
+   "place": "Chennai",
+   "group": "Personal",
+   "age_at_time": null,
+   "summary": "Short late-night thoughts, spoken instead of written.",
+   "text": "My newest experiment is a podcast called Lokey thoughts: short late-night thoughts, spoken out loud instead of written down.\n\nThe latest episode is “What If I Actually Made This Film? | A Late-Night Thought”.",
+   "keywords": [],
+   "links": [
+    {
+     "text": "listen on Spotify",
+     "url": "https://open.spotify.com/show/56PZhMcxq43aoVfZRn7RpQ"
+    }
+   ]
+  },
+  {
+   "id": "indiemusic",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/indiemusic",
+   "title": "Volunteering for independent music",
+   "place": "Chennai",
+   "group": "Personal",
+   "age_at_time": null,
+   "summary": "Three concerts, run by friends, for the love of it.",
+   "text": "I love independent music. Kaber Vasuki is one of my favourite independent artists, and he writes in Tamil. For his last three concerts, my friends and I volunteered and took care of the arrangements and the running of the whole event: welcoming guests, handing them their entry cards, organizing the seating, and meeting the fans as they arrived. It was event management, and I did it purely out of personal interest.\n\nIt gave me a lot. I built a network among creative people in independent music, and I learned how the scene works and how hard it is for artists to organize events like these. Through those connections I also went to performances by a few other independent artists.\n\nIt taught me how collaborating with creative people really works, and how ticketed events run. I do not like to let go of any opportunity that comes my way.\n\nIf you are reading this, listen to Kaber's songs. If you understand Tamil, I am sure you will fall in love with the lyrics. One line is in my Instagram bio: “மிஞ்சிப்போனால் மரணம் என்றபோது வாழ்க்கை வாழ வெட்கப்படலாமா?” It means: if death is the most that can happen in the end, why be shy of living your life?",
+   "keywords": [
+    "Event management",
+    "Independent music",
+    "Tamil music",
+    "Volunteering",
+    "Ticketed events",
+    "Fan engagement",
+    "Creator collaboration",
+    "Community building",
+    "Networking"
+   ],
+   "links": [
+    {
+     "text": "Kaber Vasuki on Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kaber_Vasuki"
+    }
+   ]
+  },
+  {
+   "id": "salem",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/salem",
+   "title": "BNI Salem: pitching Zoho to local businesses",
+   "place": "Salem",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Home and hustle in one trip.",
+   "text": "In August 2024 I was in Salem for the BNI event, networking with local businesses and pitching Zoho solutions. At BNI Salem's Member Day I represented Zoho alongside a consulting partner, and pitched Zoho's comprehensive suite of solutions for SMBs, showing how our tools drive efficiency, innovation and growth.\n\nSalem is in Tamil Nadu, my home state, so it felt like the perfect blend of home and hustle. I loved connecting with such a dynamic audience: building meaningful relationships and having impactful conversations.",
+   "keywords": [
+    "BNI Salem",
+    "BNI Member Day",
+    "Business Network International",
+    "Zoho",
+    "SMB",
+    "Networking",
+    "Partnerships",
+    "CRM"
+   ],
+   "links": [
+    {
+     "text": "my post from BNI Member Day",
+     "url": "https://lnkd.in/p/gbppWuea"
+    },
+    {
+     "text": "my 2024 LinkedIn reflection",
+     "url": "https://www.linkedin.com/posts/logesh-ramasamy_zoho-partnerships-crm-ugcPost-7276292539777724417-VZFe/"
+    }
+   ]
+  },
+  {
+   "id": "yercaud",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/yercaud",
+   "title": "Yercaud on foot: nearly 30,000 steps",
+   "place": "Salem",
+   "group": "",
+   "age_at_time": null,
+   "summary": "No bike, no cab, no plan. Just walking.",
+   "text": "After the event, I had one day left before heading back to Chennai. Instead of spending it resting, I decided to visit Yercaud.\n\nI didn't rent a bike, book a cab or plan a public transport route. I decided to explore the place entirely on foot.\n\nNearly 30,000 steps later, I had experienced Yercaud in a way I probably wouldn't have if I had travelled by car.\n\nI walked through its roads, took in the mountain views, observed people going about their lives and stopped to have conversations. I also got an opportunity to interact with local businesses and understand a little more about the people and business culture of Salem through my BNI connections.\n\nWhat I particularly enjoy about walking is that it slows you down. You start noticing things you would otherwise pass by. The little details, the people, the conversations and the unexpected discoveries.\n\nIt was a wonderful solo-travel experience. No elaborate itinerary, no vehicle and no rush to get anywhere.\n\nJust me, a lot of walking and a new place to explore.",
+   "keywords": [],
+   "links": []
+  },
+  {
+   "id": "inspire",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/inspire",
+   "title": "Zoho Inspire, Dubai: presenting at 19",
+   "place": "Dubai",
+   "group": "",
+   "age_at_time": "19",
+   "summary": "At 19 I represented Zoho and gave a talk in Dubai.",
+   "text": "After I joined Zoho Schools of Learning, I started an internship in the pre-sales team, doing partner enablement for the Middle East and Africa region, working from Dubai.\n\nBecause of my work with partners, I got the chance to present at Zoho Inspire, a partner event that took place alongside Zoholics in Dubai in 2023. I represented Zoho and gave a talk called \"Exploring the Implementation Strategies\", on implementing Zoho solutions, in front of roughly 300 to 400 partners.\n\nI was just 19, and I was the youngest official presenter Zoho had had at the time. I still cannot believe I pulled it off. It is a wonderful opportunity to look back on and cherish.",
+   "keywords": [
+    "Zoho Inspire · Zoholics Dubai · Zoholics MEA · Zoho Partners · #DoMoreWithZoho"
+   ],
+   "links": [
+    {
+     "text": "my LinkedIn post from the event",
+     "url": "https://lnkd.in/p/gZn_7ntv"
+    },
+    {
+     "text": "my LinkedIn profile",
+     "url": "https://www.linkedin.com/in/logesh-ramasamy"
+    }
+   ]
+  },
+  {
+   "id": "gitex",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/gitex",
+   "title": "GITEX 2024: partners and customers in Dubai",
+   "place": "Dubai",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Enabling Bigin partners, and meeting customers at the Zoho booth.",
+   "text": "In October 2024 I was in Dubai for a customer and partner visit. I spent that time enabling partners across the region on Bigin CRM, Zoho's CRM for small businesses.\n\nGITEX was happening at the same time, so I also stood at the Zoho booth, representing the company. I talked with customers and listened closely to what they are looking for in a SaaS product.\n\nDubai was familiar ground: I had interned there for Zoho in 2022 and 2023, and presented at Zoho Inspire.",
+   "keywords": [
+    "GITEX Global 2024 · Dubai · Bigin CRM · Zoho · SaaS · Partner enablement · Customer visits"
+   ],
+   "links": []
+  },
+  {
+   "id": "mumbaimeetup",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/mumbaimeetup",
+   "title": "Zoho Partner Meetup 2024: the Mumbai finale",
+   "place": "Mumbai",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Rain was not a roadblock.",
+   "text": "In July 2024 the Zoho Partner Meetup series made its final stop in Mumbai, and the rain was not a roadblock. A vibrant community of partners who are driving innovation and growth came together for a day of panel discussions and hands-on product demos.\n\nMy work is enabling partners and carrying their feedback back to Zoho's product teams, and a meetup puts partners, demos and open conversation in one room. Here is to stronger partnerships and a brighter future together.",
+   "keywords": [
+    "Zoho Partner Meetup 2024",
+    "Mumbai",
+    "Zoho Partners",
+    "Partner program",
+    "Partner growth",
+    "SaaS partnerships",
+    "Innovation"
+   ],
+   "links": [
+    {
+     "text": "the Mumbai meetup post I shared",
+     "url": "https://lnkd.in/p/gErviPvy"
+    }
+   ]
+  },
+  {
+   "id": "mumbai",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/mumbai",
+   "title": "A free day, a fort, and a ride home with strangers",
+   "place": "Mumbai",
+   "group": "",
+   "age_at_time": null,
+   "summary": "A trek, a crowd, and a ride home with people I had just met.",
+   "text": "I had a free day before my meeting, so I decided to explore.\n\nIt was a weekend, and I took a train to Nashik. From there, I made my way to a fort for a trek. My original plan was simple: finish the trek and return by train or local transport.\n\nBut weekends have their own plans. The crowd slowed things down, and the trek took longer than I expected.\n\nWhile trekking, I struck up conversations with a few strangers. By the time we reached the end, I somehow found myself hitchhiking back with them instead of following my original plan.\n\nI didn't know these people before the trek. I hadn't planned this journey back either. Yet, we ended up sharing a ride, conversations and an experience I hadn't anticipated.\n\nIt was spontaneous, a little thrilling and genuinely fun.\n\nSometimes, the best part of exploring isn't the destination or the plan. It's the people you meet and the unexpected turns along the way.",
+   "keywords": [],
+   "links": []
+  },
+  {
+   "id": "gujarat",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/gujarat",
+   "title": "Rajkot: enabling partners",
+   "place": "Gujarat",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Partner enablement sessions, at our yearly meeting in Rajkot.",
+   "text": "In 2024 I went to Rajkot for routine partner enablement sessions, as part of our yearly meeting with partners there. I visited the Rajkot office of one of our partners, and we talked about how Bigin by Zoho CRM can help businesses grow.\n\nI was grateful for the warm welcome and the meaningful discussions, and to be part of that journey.",
+   "keywords": [
+    "Rajkot",
+    "Gujarat",
+    "Bigin by Zoho CRM",
+    "Partner enablement",
+    "Zoho Partners",
+    "Reseller",
+    "CRM"
+   ],
+   "links": [
+    {
+     "text": "my LinkedIn post from Rajkot",
+     "url": "https://lnkd.in/p/gHUPxcqQ"
+    }
+   ]
+  },
+  {
+   "id": "somnath",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/somnath",
+   "title": "Somnath, solo, without Gujarati",
+   "place": "Gujarat",
+   "group": "",
+   "age_at_time": null,
+   "summary": "The last bus to Rajkot, and a flight the next day.",
+   "text": "On that trip I also went to the Somnath temple on my own, without knowing Gujarati. Then I had to catch the last bus back to Rajkot, because I had a flight the next day.\n\nThere is more to that journey. Ask me for the whole story.",
+   "keywords": [],
+   "links": []
+  },
+  {
+   "id": "kolkata",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/kolkata",
+   "title": "Kolkata: training distributor and channel partners",
+   "place": "Kolkata",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Partner enablement and training, in the east.",
+   "text": "In Kolkata I ran partner enablement and training sessions for our distributor partners and channel partners.\n\nSessions like these are the heart of my work: helping the partners who sell and implement Zoho understand the products deeply, so they can serve their own customers well.",
+   "keywords": [
+    "Kolkata",
+    "Partner enablement",
+    "Training sessions",
+    "Distributor partners",
+    "Channel partners",
+    "Zoho Partners",
+    "Field enablement"
+   ],
+   "links": []
+  },
+  {
+   "id": "kolkatatravel",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/kolkatatravel",
+   "title": "Kolkata: sunsets, the Math and a city full of history",
+   "place": "Kolkata",
+   "group": "",
+   "age_at_time": null,
+   "summary": "I loved the energy of the city.",
+   "text": "I visited a few places in Kolkata, and I really loved the sunset. If you are a sunset lover, you should sit in the gardens of Kolkata. We also went to the Ramakrishna Math, and took a ferry across to the Vivekananda place.\n\nI love the city and its energy. Walking along the roads, I could see the pre-independence buildings and feel the era, things I had only read about in books.",
+   "keywords": [
+    "Kolkata",
+    "Travel",
+    "Ramakrishna Math",
+    "Sunset",
+    "History",
+    "Heritage architecture"
+   ],
+   "links": []
+  },
+  {
+   "id": "delhi",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/delhi",
+   "title": "Delhi: meeting partners and distributors",
+   "place": "Delhi",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Face to face with our partner and distributor ecosystem.",
+   "text": "In Delhi I was meeting most of our partners and our distributor partner ecosystem, and doing technical enablement with them for Bigin, Zoho's CRM for small and medium businesses.",
+   "keywords": [
+    "Delhi",
+    "Bigin CRM",
+    "Partner ecosystem",
+    "Distributors",
+    "Technical enablement",
+    "Partner meetups"
+   ],
+   "links": [
+    {
+     "text": "my 2024 LinkedIn reflection",
+     "url": "https://www.linkedin.com/posts/logesh-ramasamy_zoho-partnerships-crm-ugcPost-7276292539777724417-VZFe/"
+    }
+   ]
+  },
+  {
+   "id": "delhimeetup",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/delhimeetup",
+   "title": "Zoho Partner Meetup 2024: the Delhi edition",
+   "place": "Delhi",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Representing Bigin in a room full of partners.",
+   "text": "In July 2024 I represented Bigin by Zoho CRM at the Zoho Partner Meetup in Delhi. The day had product sessions on CRM, support tools and development tools, and an open-house Q&A where partners could ask us anything.\n\nIt was a privilege to be there. The energy, the collaboration and the ideas partners shared were truly inspiring, and I am grateful for their enthusiasm and honest feedback. Partner feedback is what I carry back to Zoho's product teams, so a room like that is where it starts.",
+   "keywords": [
+    "Zoho Partner Meetup 2024",
+    "Delhi",
+    "Bigin CRM",
+    "Zoho Partners",
+    "Partner growth",
+    "Collaboration",
+    "Innovation",
+    "CRM"
+   ],
+   "links": [
+    {
+     "text": "my LinkedIn post from the Delhi meetup",
+     "url": "https://lnkd.in/p/g8XxJUae"
+    }
+   ]
+  },
+  {
+   "id": "xscale",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/xscale",
+   "title": "Coffee with Xscale at IIT Delhi: pitching Bigin to startups",
+   "place": "Delhi",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Pitching a first CRM to startups and investors.",
+   "text": "At IIT Delhi there was an event called Coffee with Xscale 2.0, where startups got to talk with venture capital investors.\n\nI represented Bigin CRM there, pitching Bigin to small and medium businesses and to the startups in the room as their first CRM.",
+   "keywords": [
+    "Coffee with Xscale 2.0",
+    "IIT Delhi",
+    "Startups",
+    "Venture capital",
+    "Bigin CRM",
+    "SMB",
+    "First CRM"
+   ],
+   "links": [
+    {
+     "text": "my 2024 LinkedIn reflection",
+     "url": "https://www.linkedin.com/posts/logesh-ramasamy_zoho-partnerships-crm-ugcPost-7276292539777724417-VZFe/"
+    }
+   ]
+  },
+  {
+   "id": "srilanka",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/srilanka",
+   "title": "Sri Lanka: representing Zoho at CLICK 2023",
+   "place": "Sri Lanka",
+   "group": "",
+   "age_at_time": null,
+   "summary": "Showcasing Zoho directly to channel partners in Sri Lanka.",
+   "text": "In September 2023 I was in Sri Lanka with the Zoho Partner team, representing Zoho at a channel partner's annual conference, CLICK 2023, held on 16 September.\n\nIt was a chance to forge meaningful connections and showcase Zoho's products directly to the channel partners in Sri Lanka. The enthusiasm and keen interest they showed in the products, and what they could do, was truly remarkable. Zoho is excited about the potential of the Sri Lankan market, and I came away looking forward to working with the partners there to deliver real value to their customers.\n\nI have also travelled in Sri Lanka, including to Sigiriya, the ancient rock fortress.",
+   "keywords": [
+    "CLICK 2023",
+    "Sri Lanka",
+    "Zoho Partner team",
+    "Channel partners",
+    "Partner conference",
+    "Market expansion",
+    "Sigiriya"
+   ],
+   "links": [
+    {
+     "text": "my LinkedIn post from CLICK 2023",
+     "url": "https://lnkd.in/p/gedjh46C"
+    }
+   ]
+  },
+  {
+   "id": "kudremukh",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/kudremukh",
+   "title": "Kudremukh: a trek I organized, and a story people still ask about",
+   "place": "Kudremukh",
+   "group": "",
+   "age_at_time": null,
+   "summary": "A trip I planned, wrote up, and still get messages about.",
+   "text": "I organized a trek to Kudremukh with my friends, and I was so happy that it came together. Kudremukh is a hill range in Karnataka's Western Ghats.\n\nAfterwards I wrote the whole plan up on Medium, in a post called \"Trekking Kudremukh on a Budget: A DIY Adventure from Chennai\". Even now, people message me on Instagram and other places asking how to plan the same trip. I love travelling and planning trips, so I share the details with them.\n\nIt is one of the core memories I have.",
+   "keywords": [],
+   "links": [
+    {
+     "text": "Trekking Kudremukh on a Budget, on Medium",
+     "url": "https://medium.com/@logeshl2003/trekking-kudremukh-on-a-budget-a-diy-adventure-from-chennai-c270e192f557"
+    }
+   ]
+  },
+  {
+   "id": "nagpur",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/nagpur",
+   "title": "Nagpur: showcasing Bigin with a partner",
+   "place": "Nagpur",
+   "group": "",
+   "age_at_time": null,
+   "summary": "A partner and I, showing small businesses what a CRM can do.",
+   "text": "In February 2025 I was at Advantage Vidarbha in Nagpur with one of our partners, showcasing Bigin by Zoho CRM. I demonstrated Bigin to businesses from Vidarbha who wanted to simplify their sales process and take customer relationships to the next level.\n\nIt was partnerships in action: working side by side with a partner to help small businesses see what an affordable, easy-to-use CRM can do for them.\n\nI was grateful to be part of it, and to witness first-hand the incredible energy of small businesses in Nagpur. The city sits close to the geographic centre of India, a long way from my home in the south, and it reminded me that the energy of Indian business is not only in the big metros.",
+   "keywords": [
+    "Advantage Vidarbha 2025",
+    "Nagpur",
+    "Bigin by Zoho CRM",
+    "Zoho Partners",
+    "CRM for SMBs",
+    "Small businesses",
+    "Partner events"
+   ],
+   "links": [
+    {
+     "text": "my post after the event",
+     "url": "https://lnkd.in/p/gQVK4gac"
+    },
+    {
+     "text": "my post from Nagpur",
+     "url": "https://lnkd.in/p/gJzeayaG"
+    }
+   ]
+  },
+  {
+   "id": "vidarbha",
+   "url": "https://logeshr15.github.io/wisprportfolio/#/story/vidarbha",
+   "title": "Advantage Vidarbha 2025: a few facts",
+   "place": "Nagpur",
+   "group": "",
+   "age_at_time": null,
+   "summary": "A three-day industrial expo, with 100 stalls for micro and small enterprises.",
+   "text": "Advantage Vidarbha 2025 was an industrial expo held in Nagpur from 7 to 9 February 2025. Here is what was reported about it.\n\n- **Organiser:** the Association for Industrial Development (AID).\n- **Venue:** the campus ground of Rashtrasant Tukadoji Maharaj University, Amravati Road, Nagpur.\n- **Size:** more than 300 stalls, of which 100 were reserved for micro and small enterprises.\n- **Who took part:** chief guests included Union Minister Nitin Gadkari and Maharashtra Chief Minister Devendra Fadnavis, and exhibitors included government bodies such as SEBI, the GST Department, the Department of Posts and the Government e-Marketplace (GeM).\n- **Afterwards:** exhibitors reported a surge in visitor turnout, and several start-ups seeking investment reported meetings with potential investors.\n\nFor a small-business CRM, a room built for micro and small enterprises is the right place to be.",
+   "keywords": [
+    "Advantage Vidarbha 2025",
+    "Nagpur",
+    "Industrial expo",
+    "MSME",
+    "Micro and small enterprises",
+    "Association for Industrial Development"
+   ],
+   "links": [
+    {
+     "text": "The Hitavada on the expo",
+     "url": "https://www.thehitavada.com/Encyc/2025/1/25/-Advantage-Vidarbha-2025-from-Feb-7-to-9.html"
+    },
+    {
+     "text": "what exhibitors said afterwards",
+     "url": "https://www.thehitavada.com/Encyc/2025/2/10/Advantage-Vidarbha-expo-generates-substantial-inquiries-for-participants-products-and-services.html"
+    }
+   ]
+  }
+ ]
+}
