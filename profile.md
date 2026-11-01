@@ -8,6 +8,8 @@ Contact: https://www.linkedin.com/in/logesh-ramasamy
 
 Hello, I'm Logesh Ramasamy: I explore, I experiment, I build. I'm a partner solutions engineer at Zoho, exploring AI, products and business, and I'm applying to the Wispr Flow India growth team.
 
+Some commercial details are confidential, so here I tell the work, not the numbers.
+
 ## Don't type. Just speak.
 
 During my school days, I attended typing classes to improve my typing speed. Over the years I kept improving it, because I believed typing faster meant being more productive.
@@ -91,7 +93,7 @@ The idea is simple: instead of every SaaS company solving the voice-input proble
 
 Creator-led growth is part of the job, and influencer marketing is one of the channels the India team is scaling. I come to it from both sides.
 
-**As a creator,** I've been making content for years: a blog with 21 posts, a YouTube channel with 116 videos, writing on Medium, a Kindle book and a podcast. **As a collaborator,** I've worked with creative people: I volunteered with friends to run three concerts for an independent Tamil artist, and through that I learned how creators organize, what they struggle with, and how ticketed events run. **And I've seen distribution up close,** from Quora and blog experiments to affiliate marketing.
+**As a creator,** I've been making content for years: a blog with 21 posts, a YouTube channel with 116 videos, writing on Medium, a Kindle book and a podcast. **As a collaborator,** I've worked with content creators and independent musicians on their shows, most closely Kaber Vasuki: I volunteered with friends to plan and run three concerts for an independent Tamil artist, end to end, and through that I learned how creators organize, what they struggle with, and how ticketed events run. **And I've seen distribution up close,** from Quora and blog experiments to affiliate marketing.
 
 I'd love to bring that to regional-language creators in India, and test whether creators who already explain tools to their audience in their own mix of languages could make voice feel native.
 
@@ -110,13 +112,13 @@ These are some of the things I'd love to explore if I became part of the Wispr F
 - **Creativity**: This globe, where every light is a version of me, plus a guide that builds a route for you. Evidence: [The house of unfinished things](https://logeshr15.github.io/wisprportfolio/#/story/shelf) · [A ride home with strangers](https://logeshr15.github.io/wisprportfolio/#/story/mumbai)
 - **Understanding of voice**: I record a podcast where I think out loud, and I want voice to reach people who type in a second language. Evidence: [Lokey thoughts, my podcast](https://logeshr15.github.io/wisprportfolio/#/story/podcast) · [What if I joined Wispr Flow?](https://logeshr15.github.io/wisprportfolio/#/join)
 - **Builds independently**: An open-source tool nobody asked me to build, and a shelf of things I started alone. Evidence: [Screener MCP](https://logeshr15.github.io/wisprportfolio/#/story/screener) · [The house of unfinished things](https://logeshr15.github.io/wisprportfolio/#/story/shelf)
-- **Ownership**: I lead partner enablement for Bigin, presented at 19, ran a shop as a schoolboy, and organized a trek for my friends. Evidence: [Leading Bigin partner enablement](https://logeshr15.github.io/wisprportfolio/#/story/bigin) · [Zoho Inspire, at 19](https://logeshr15.github.io/wisprportfolio/#/story/inspire) · [The Diwali shop](https://logeshr15.github.io/wisprportfolio/#/story/diwali) · [Organizing the Kudremukh trek](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh)
+- **Ownership**: I lead partner enablement for Bigin, presented at 19, ran a shop as a schoolboy, and planned and led a trek for my friends, and planned and ran three concerts as a volunteer. Evidence: [Leading Bigin partner enablement](https://logeshr15.github.io/wisprportfolio/#/story/bigin) · [Zoho Inspire, at 19](https://logeshr15.github.io/wisprportfolio/#/story/inspire) · [The Diwali shop](https://logeshr15.github.io/wisprportfolio/#/story/diwali) · [Planning the Kudremukh trek](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh) · [Running three concerts](https://logeshr15.github.io/wisprportfolio/#/story/indiemusic)
 - **Understands India**: I grew up in a small business in Trichy, and I have been to many parts of the country. Evidence: [The family business](https://logeshr15.github.io/wisprportfolio/#/story/father) · [A ride home with strangers](https://logeshr15.github.io/wisprportfolio/#/story/mumbai) · [The globe](https://logeshr15.github.io/wisprportfolio/#/globe)
 - **Communicates clearly**: Short sentences, every story as plain text on this page, a podcast you can hear, and a trek guide people still message me about. Evidence: [Read everything](https://logeshr15.github.io/wisprportfolio/#/read) · [Lokey thoughts (podcast)](https://open.spotify.com/show/56PZhMcxq43aoVfZRn7RpQ) · [Kudremukh trek write-up](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh)
 
 ## Growth at a glance
 
-- **Channel and partnerships:** 150+ exclusive Bigin partners (consulting partners and distributors) enabled and growing, partner feedback carried to 55+ Zoho product teams, partner meetups in Delhi and Mumbai, and partner visits across India, Dubai and Sri Lanka.
+- **Channel and partnerships:** I helped build Bigin's partner ecosystem from zero to one and I am building Zoho's AI enablement for partners the same way. 150+ exclusive Bigin partners (consulting partners and distributors) enabled and growing, partner feedback carried to 55+ Zoho product teams, partner meetups in Delhi and Mumbai, and partner visits across India, Dubai and Sri Lanka.
 
 - **Events and stages:** Zoho Inspire Dubai at 19 (the youngest official presenter, to roughly 300 to 400 partners), GITEX 2024, CLICK 2023 in Sri Lanka, BNI Salem, Coffee with Xscale at IIT Delhi, and Advantage Vidarbha in Nagpur.
 
@@ -124,7 +126,9 @@ These are some of the things I'd love to explore if I became part of the Wispr F
 
 - **Distribution and content:** a 21-post blog, Quora, a 116-video YouTube channel, writing on Medium and a podcast, plus SEO and affiliate-marketing experiments.
 
-- **Community and creators:** volunteer event management for three independent Tamil music concerts, and a trek guide people still ask me about.
+- **Planning and execution:** planned and ran three independent music concerts end to end as a volunteer, planned and led a trek for friends, and plan and deliver partner enablement sessions, workshops and webinars.
+
+- **Community and creators:** I have worked with content creators and independent musicians on their shows, most closely Kaber Vasuki, whose last three concerts I helped plan and run. I also wrote a trek guide people still ask me about.
 
 - **Languages and training:** Tamil and Telugu natively, English professionally, a little Hindi. Product-Led Growth (PLGC) and Google Ads Measurement certifications.
 
@@ -185,8 +189,8 @@ Open-source tools, Zoho integrations and a podcast.
 
 Music, treks and walks: the curiosity outside work.
 
-- [Volunteering for independent music](https://logeshr15.github.io/wisprportfolio/#/story/indiemusic)
-- [Kudremukh: a trek I organized, and a story people still ask about](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh)
+- [Planning and running independent music concerts](https://logeshr15.github.io/wisprportfolio/#/story/indiemusic)
+- [Kudremukh: a trek I planned and organized, and a story people still ask about](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh)
 - [A free day, a fort, and a ride home with strangers](https://logeshr15.github.io/wisprportfolio/#/story/mumbai)
 - [Yercaud on foot: nearly 30,000 steps](https://logeshr15.github.io/wisprportfolio/#/story/yercaud)
 - [Somnath, solo, without Gujarati](https://logeshr15.github.io/wisprportfolio/#/story/somnath)
@@ -199,7 +203,7 @@ Each story, and the stories it leads to or comes from.
 - **The family business: helping my parents**: [The Diwali roadside shop](https://logeshr15.github.io/wisprportfolio/#/story/diwali) (the family shop's diwali stall); [A blog nobody read](https://logeshr15.github.io/wisprportfolio/#/story/blog) (the family business looking at e-commerce led to amazon and marketing); [Leading partner enablement for Bigin](https://logeshr15.github.io/wisprportfolio/#/story/bigin) (a small-business childhood, a small-business crm)
 - **The Diwali roadside shop**: [The family business: helping my parents](https://logeshr15.github.io/wisprportfolio/#/story/father) (the family shop's diwali stall); [My first phone: a Lenovo K5](https://logeshr15.github.io/wisprportfolio/#/story/phone) (the shop's earnings bought the phone)
 - **My first phone: a Lenovo K5**: [The Diwali roadside shop](https://logeshr15.github.io/wisprportfolio/#/story/diwali) (the shop's earnings bought the phone); [A blog nobody read](https://logeshr15.github.io/wisprportfolio/#/story/blog) (the blogs were run from that phone, with no laptop); [Lokey thoughts: my podcast](https://logeshr15.github.io/wisprportfolio/#/story/podcast) (from typing on a phone to speaking into one)
-- **I wanted to write lyrics for cinema**: [A blog nobody read](https://logeshr15.github.io/wisprportfolio/#/story/blog) (the love of writing led to the blog); [To invent the uninvented: my self-published book](https://logeshr15.github.io/wisprportfolio/#/story/book) (the love of writing led to the book); [Volunteering for independent music](https://logeshr15.github.io/wisprportfolio/#/story/indiemusic) (lyrics: the cinema dream, and an independent artist's words); [Lokey thoughts: my podcast](https://logeshr15.github.io/wisprportfolio/#/story/podcast) (storytelling, spoken instead of written)
+- **I wanted to write lyrics for cinema**: [A blog nobody read](https://logeshr15.github.io/wisprportfolio/#/story/blog) (the love of writing led to the blog); [To invent the uninvented: my self-published book](https://logeshr15.github.io/wisprportfolio/#/story/book) (the love of writing led to the book); [Planning and running independent music concerts](https://logeshr15.github.io/wisprportfolio/#/story/indiemusic) (lyrics: the cinema dream, and an independent artist's words); [Lokey thoughts: my podcast](https://logeshr15.github.io/wisprportfolio/#/story/podcast) (storytelling, spoken instead of written)
 - **A blog nobody read**: [My first phone: a Lenovo K5](https://logeshr15.github.io/wisprportfolio/#/story/phone) (the blogs were run from that phone, with no laptop); [I wanted to write lyrics for cinema](https://logeshr15.github.io/wisprportfolio/#/story/writer) (the love of writing led to the blog); [The family business: helping my parents](https://logeshr15.github.io/wisprportfolio/#/story/father) (the family business looking at e-commerce led to amazon and marketing); [Affiliate marketing and other small experiments](https://logeshr15.github.io/wisprportfolio/#/story/affiliate) (the same blogs hosted the affiliate experiments); [The house of unfinished things](https://logeshr15.github.io/wisprportfolio/#/story/shelf) (the blog is on the shelf); [Zoho Schools of Learning: learning by doing](https://logeshr15.github.io/wisprportfolio/#/story/zsl) (content and marketing skills carried into zoho schools)
 - **Affiliate marketing and other small experiments**: [A blog nobody read](https://logeshr15.github.io/wisprportfolio/#/story/blog) (the same blogs hosted the affiliate experiments); [The house of unfinished things](https://logeshr15.github.io/wisprportfolio/#/story/shelf) (one of the small experiments on the shelf)
 - **To invent the uninvented: my self-published book**: [I wanted to write lyrics for cinema](https://logeshr15.github.io/wisprportfolio/#/story/writer) (the love of writing led to the book); [The house of unfinished things](https://logeshr15.github.io/wisprportfolio/#/story/shelf) (the one thing on the shelf that shipped)
@@ -209,7 +213,7 @@ Each story, and the stories it leads to or comes from.
 - **Partner solutions intern, Middle East and Africa**: [Presales intern for the UK and Europe](https://logeshr15.github.io/wisprportfolio/#/story/presales) (from uk and europe retail to partners in mea); [Partner Solutions Engineer](https://logeshr15.github.io/wisprportfolio/#/story/pse) (the internship became the full-time role); [Zoho Inspire, Dubai: presenting at 19](https://logeshr15.github.io/wisprportfolio/#/story/inspire) (the mea internship led to the inspire stage)
 - **Partner Solutions Engineer**: [Partner solutions intern, Middle East and Africa](https://logeshr15.github.io/wisprportfolio/#/story/meaintern) (the internship became the full-time role); [Leading partner enablement for Bigin](https://logeshr15.github.io/wisprportfolio/#/story/bigin) (the role grew into leading bigin enablement); [My partner enablement route](https://logeshr15.github.io/wisprportfolio/#/story/route) (the job is a field job); [MCP servers for Zoho products](https://logeshr15.github.io/wisprportfolio/#/story/zohotools) (built around the products i work with)
 - **Leading partner enablement for Bigin**: [The family business: helping my parents](https://logeshr15.github.io/wisprportfolio/#/story/father) (a small-business childhood, a small-business crm); [Partner Solutions Engineer](https://logeshr15.github.io/wisprportfolio/#/story/pse) (the role grew into leading bigin enablement); [My partner enablement route](https://logeshr15.github.io/wisprportfolio/#/story/route) (bigin partners are the route's destinations); [Enabling partners on AI](https://logeshr15.github.io/wisprportfolio/#/story/aipartners) (partner enablement, now with ai); [Coffee with Xscale at IIT Delhi: pitching Bigin to startups](https://logeshr15.github.io/wisprportfolio/#/story/xscale) (pitching bigin to startups as a first crm); [Zoho Partner Meetup 2024: the Delhi edition](https://logeshr15.github.io/wisprportfolio/#/story/delhimeetup) (representing bigin at the partner meetup); [Nagpur: showcasing Bigin with a partner](https://logeshr15.github.io/wisprportfolio/#/story/nagpur) (showcasing bigin to small businesses); [Kolkata: training distributor and channel partners](https://logeshr15.github.io/wisprportfolio/#/story/kolkata) (training bigin's distributor and channel partners); [GITEX 2024: partners and customers in Dubai](https://logeshr15.github.io/wisprportfolio/#/story/gitex) (partner visits and customer conversations in dubai)
-- **My partner enablement route**: [Partner Solutions Engineer](https://logeshr15.github.io/wisprportfolio/#/story/pse) (the job is a field job); [Leading partner enablement for Bigin](https://logeshr15.github.io/wisprportfolio/#/story/bigin) (bigin partners are the route's destinations); [Zoho Inspire, Dubai: presenting at 19](https://logeshr15.github.io/wisprportfolio/#/story/inspire) (the first stop of the route); [GITEX 2024: partners and customers in Dubai](https://logeshr15.github.io/wisprportfolio/#/story/gitex) (dubai on the route, 2024); [Zoho Partner Meetup 2024: the Delhi edition](https://logeshr15.github.io/wisprportfolio/#/story/delhimeetup) (a stop on the route); [Zoho Partner Meetup 2024: the Mumbai finale](https://logeshr15.github.io/wisprportfolio/#/story/mumbaimeetup) (the final stop of the 2024 meetup series); [BNI Salem: pitching Zoho to local businesses](https://logeshr15.github.io/wisprportfolio/#/story/salem) (a stop on the route); [Rajkot: enabling partners](https://logeshr15.github.io/wisprportfolio/#/story/gujarat) (a stop on the route); [Nagpur: showcasing Bigin with a partner](https://logeshr15.github.io/wisprportfolio/#/story/nagpur) (a stop on the route); [Kolkata: training distributor and channel partners](https://logeshr15.github.io/wisprportfolio/#/story/kolkata) (a stop on the route); [Sri Lanka: representing Zoho at CLICK 2023](https://logeshr15.github.io/wisprportfolio/#/story/srilanka) (a stop on the route); [Volunteering for independent music](https://logeshr15.github.io/wisprportfolio/#/story/indiemusic) (event management, in work and for love)
+- **My partner enablement route**: [Partner Solutions Engineer](https://logeshr15.github.io/wisprportfolio/#/story/pse) (the job is a field job); [Leading partner enablement for Bigin](https://logeshr15.github.io/wisprportfolio/#/story/bigin) (bigin partners are the route's destinations); [Zoho Inspire, Dubai: presenting at 19](https://logeshr15.github.io/wisprportfolio/#/story/inspire) (the first stop of the route); [GITEX 2024: partners and customers in Dubai](https://logeshr15.github.io/wisprportfolio/#/story/gitex) (dubai on the route, 2024); [Zoho Partner Meetup 2024: the Delhi edition](https://logeshr15.github.io/wisprportfolio/#/story/delhimeetup) (a stop on the route); [Zoho Partner Meetup 2024: the Mumbai finale](https://logeshr15.github.io/wisprportfolio/#/story/mumbaimeetup) (the final stop of the 2024 meetup series); [BNI Salem: pitching Zoho to local businesses](https://logeshr15.github.io/wisprportfolio/#/story/salem) (a stop on the route); [Rajkot: enabling partners](https://logeshr15.github.io/wisprportfolio/#/story/gujarat) (a stop on the route); [Nagpur: showcasing Bigin with a partner](https://logeshr15.github.io/wisprportfolio/#/story/nagpur) (a stop on the route); [Kolkata: training distributor and channel partners](https://logeshr15.github.io/wisprportfolio/#/story/kolkata) (a stop on the route); [Sri Lanka: representing Zoho at CLICK 2023](https://logeshr15.github.io/wisprportfolio/#/story/srilanka) (a stop on the route); [Planning and running independent music concerts](https://logeshr15.github.io/wisprportfolio/#/story/indiemusic) (planning and running events, at work and for love)
 - **Enabling partners on AI**: [Leading partner enablement for Bigin](https://logeshr15.github.io/wisprportfolio/#/story/bigin) (partner enablement, now with ai); [MCP servers for Zoho products](https://logeshr15.github.io/wisprportfolio/#/story/zohotools) (ai at work and ai in my own projects); [Screener MCP: an open-source tool I built](https://logeshr15.github.io/wisprportfolio/#/story/screener) (ai at work and ai in my own projects)
 - **Zoho Inspire, Dubai: presenting at 19**: [Partner solutions intern, Middle East and Africa](https://logeshr15.github.io/wisprportfolio/#/story/meaintern) (the mea internship led to the inspire stage); [GITEX 2024: partners and customers in Dubai](https://logeshr15.github.io/wisprportfolio/#/story/gitex) (dubai again, a year later); [My partner enablement route](https://logeshr15.github.io/wisprportfolio/#/story/route) (the first stop of the route)
 - **GITEX 2024: partners and customers in Dubai**: [Leading partner enablement for Bigin](https://logeshr15.github.io/wisprportfolio/#/story/bigin) (partner visits and customer conversations in dubai); [Zoho Inspire, Dubai: presenting at 19](https://logeshr15.github.io/wisprportfolio/#/story/inspire) (dubai again, a year later); [My partner enablement route](https://logeshr15.github.io/wisprportfolio/#/story/route) (dubai on the route, 2024)
@@ -227,10 +231,10 @@ Each story, and the stories it leads to or comes from.
 - **Indian Mutual Funds MCP**: [Screener MCP: an open-source tool I built](https://logeshr15.github.io/wisprportfolio/#/story/screener) (the second mcp server, same idea); [MCP servers for Zoho products](https://logeshr15.github.io/wisprportfolio/#/story/zohotools) (mcp servers again, for zoho products)
 - **MCP servers for Zoho products**: [Screener MCP: an open-source tool I built](https://logeshr15.github.io/wisprportfolio/#/story/screener) (mcp servers again, for zoho products); [Indian Mutual Funds MCP](https://logeshr15.github.io/wisprportfolio/#/story/mfmcp) (mcp servers again, for zoho products); [Partner Solutions Engineer](https://logeshr15.github.io/wisprportfolio/#/story/pse) (built around the products i work with); [Enabling partners on AI](https://logeshr15.github.io/wisprportfolio/#/story/aipartners) (ai at work and ai in my own projects)
 - **Lokey thoughts: my podcast**: [My first phone: a Lenovo K5](https://logeshr15.github.io/wisprportfolio/#/story/phone) (from typing on a phone to speaking into one); [I wanted to write lyrics for cinema](https://logeshr15.github.io/wisprportfolio/#/story/writer) (storytelling, spoken instead of written)
-- **Volunteering for independent music**: [I wanted to write lyrics for cinema](https://logeshr15.github.io/wisprportfolio/#/story/writer) (lyrics: the cinema dream, and an independent artist's words); [My partner enablement route](https://logeshr15.github.io/wisprportfolio/#/story/route) (event management, in work and for love); [Kudremukh: a trek I organized, and a story people still ask about](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh) (both done with friends)
-- **Kudremukh: a trek I organized, and a story people still ask about**: [Volunteering for independent music](https://logeshr15.github.io/wisprportfolio/#/story/indiemusic) (both done with friends); [A free day, a fort, and a ride home with strangers](https://logeshr15.github.io/wisprportfolio/#/story/mumbai) (treks); [Yercaud on foot: nearly 30,000 steps](https://logeshr15.github.io/wisprportfolio/#/story/yercaud) (walking and trekking)
-- **A free day, a fort, and a ride home with strangers**: [Zoho Partner Meetup 2024: the Mumbai finale](https://logeshr15.github.io/wisprportfolio/#/story/mumbaimeetup) (the same city, a free day before a meeting); [Kudremukh: a trek I organized, and a story people still ask about](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh) (treks); [Somnath, solo, without Gujarati](https://logeshr15.github.io/wisprportfolio/#/story/somnath) (travelling light, trusting strangers)
-- **Yercaud on foot: nearly 30,000 steps**: [BNI Salem: pitching Zoho to local businesses](https://logeshr15.github.io/wisprportfolio/#/story/salem) (the spare day after the event); [Kudremukh: a trek I organized, and a story people still ask about](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh) (walking and trekking); [Somnath, solo, without Gujarati](https://logeshr15.github.io/wisprportfolio/#/story/somnath) (solo trips on spare days)
+- **Planning and running independent music concerts**: [I wanted to write lyrics for cinema](https://logeshr15.github.io/wisprportfolio/#/story/writer) (lyrics: the cinema dream, and an independent artist's words); [My partner enablement route](https://logeshr15.github.io/wisprportfolio/#/story/route) (planning and running events, at work and for love); [Kudremukh: a trek I planned and organized, and a story people still ask about](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh) (both planned and run with friends)
+- **Kudremukh: a trek I planned and organized, and a story people still ask about**: [Planning and running independent music concerts](https://logeshr15.github.io/wisprportfolio/#/story/indiemusic) (both planned and run with friends); [A free day, a fort, and a ride home with strangers](https://logeshr15.github.io/wisprportfolio/#/story/mumbai) (treks); [Yercaud on foot: nearly 30,000 steps](https://logeshr15.github.io/wisprportfolio/#/story/yercaud) (walking and trekking)
+- **A free day, a fort, and a ride home with strangers**: [Zoho Partner Meetup 2024: the Mumbai finale](https://logeshr15.github.io/wisprportfolio/#/story/mumbaimeetup) (the same city, a free day before a meeting); [Kudremukh: a trek I planned and organized, and a story people still ask about](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh) (treks); [Somnath, solo, without Gujarati](https://logeshr15.github.io/wisprportfolio/#/story/somnath) (travelling light, trusting strangers)
+- **Yercaud on foot: nearly 30,000 steps**: [BNI Salem: pitching Zoho to local businesses](https://logeshr15.github.io/wisprportfolio/#/story/salem) (the spare day after the event); [Kudremukh: a trek I planned and organized, and a story people still ask about](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh) (walking and trekking); [Somnath, solo, without Gujarati](https://logeshr15.github.io/wisprportfolio/#/story/somnath) (solo trips on spare days)
 - **Somnath, solo, without Gujarati**: [Rajkot: enabling partners](https://logeshr15.github.io/wisprportfolio/#/story/gujarat) (a solo trip after the partner sessions); [Yercaud on foot: nearly 30,000 steps](https://logeshr15.github.io/wisprportfolio/#/story/yercaud) (solo trips on spare days); [A free day, a fort, and a ride home with strangers](https://logeshr15.github.io/wisprportfolio/#/story/mumbai) (travelling light, trusting strangers)
 - **Kolkata: sunsets, the Math and a city full of history**: [Kolkata: training distributor and channel partners](https://logeshr15.github.io/wisprportfolio/#/story/kolkata) (the same city, beyond the training sessions)
 
@@ -338,7 +342,7 @@ Trichy
 
 In 9th standard I was pulled in two directions. On one side was writing. On the other was e-commerce, because our family business was slowly thinking about selling online. I learned how to sell on Amazon, along with a lot of other things.
 
-Then I started a blog, and nobody came. That is how I found out what SEO means. I took many online courses in digital marketing and social media marketing, and I learned that you have to build distribution, not just write. So I became very active on Quora, and Quora began sending lots of visitors to my website.
+Then I started a blog, and nobody came. That is how I found out what SEO means. I took many online courses in digital marketing and social media marketing, and I learned that you have to build distribution, not just write. So I became very active on Quora, and Quora began sending lots of visitors to my website. It was my first experiment loop: try something, see what is working, and change it.
 
 I ran several blogs. One of them is To Start A Startup. The others were mostly affiliate-marketing experiments where I posted things at random. They were experiments more than professional blogs, and I did not have a laptop, so I ran all of them from my mobile.
 
@@ -358,7 +362,7 @@ I signed up with Amazon and promoted a few products, like the best smartphone to
 
 Trichy
 
-At 15, in 11th standard, I wrote a science fiction book called *To invent the uninvented* and self-published it on Amazon as a Kindle book in August 2019. I wanted to understand how publishing works, and to be able to call myself a published author.
+At 15, in 11th standard, I wrote a science fiction book called *To invent the uninvented* and self-published it on Amazon as a Kindle book in August 2019, taking it end to end from writing to publishing. I wanted to understand how publishing works, and to be able to call myself a published author.
 
 It is rated 5.0 out of 5 on Amazon.
 
@@ -430,7 +434,7 @@ Chennai · Professional: Zoho
 
 Since July 2023 I have been a Partner Solutions Engineer at Zoho. I work with Zoho's partners to give pre-sales technical support to mid-market and enterprise clients. I help partners understand what a client needs, then design a solution from Zoho's product portfolio.
 
-In practice it is partner-channel work. I am a trusted point of contact for their technical needs, I build plans to deepen their Zoho skills in a particular industry or area, and I run workshops, demos, consultations, webinars and product showcases. I write the sales proposals and technical documentation they use with clients, and I explain customer requirements to implementation and project teams so delivery runs smoothly.
+In practice it is partner-channel work: planning enablement for each partner and then delivering it. I am a trusted point of contact for their technical needs, I build plans to deepen their Zoho skills in a particular industry or area, and I run workshops, demos, consultations, webinars and product showcases. I write the sales proposals and technical documentation they use with clients, and I explain customer requirements to implementation and project teams so delivery runs smoothly.
 
 I also carry what partners tell me back to Zoho. I speak for partners across 55+ Zoho product teams, and I work with product management on enhancements.
 
@@ -442,9 +446,9 @@ Know more: [my LinkedIn profile](https://www.linkedin.com/in/logesh-ramasamy)
 
 Chennai · Professional: Zoho
 
-Since May 2024 I have led global partner enablement for Bigin, Zoho's CRM for small businesses. I support 150+ exclusive partners, and the number keeps growing. They are consulting partners and distributors.
+I helped build Bigin's partner ecosystem from zero to one, and since May 2024 I have led global partner enablement for Bigin, Zoho's CRM for small businesses. I support 150+ exclusive partners, and the number keeps growing. They are consulting partners and distributors.
 
-I give in-depth product training, help partners on live deals with strategic input, and guide them in designing and implementing customized CRM solutions. I also support RFPs and tenders, help resolve implementation constraints, and keep partners up to date on new features and best practices.
+I plan and deliver in-depth product training, help partners on live deals with strategic input, and guide them in designing and implementing customized CRM solutions. I also support RFPs and tenders, help resolve implementation constraints, and keep partners up to date on new features and best practices.
 
 It is channel growth in practice: helping a network of partners sell and deliver one product in their own markets. I am passionate about scaling partner success.
 
@@ -454,7 +458,7 @@ Partner enablement · Bigin CRM · Channel partners · Distributors · RFPs and 
 
 Chennai · Professional: Zoho
 
-Partner enablement is a field job. These are the places it has taken me, each with its own story on this globe.
+Partner enablement is a field job: you plan the sessions, then you show up and deliver them. These are the places it has taken me, each with its own story on this globe.
 
 - **[Dubai, 2022 to 2023:](https://logeshr15.github.io/wisprportfolio/#/story/inspire)** my Middle East and Africa internship, and presenting at Zoho Inspire.
 - **[Sri Lanka, September 2023:](https://logeshr15.github.io/wisprportfolio/#/story/srilanka)** CLICK 2023, a channel partner's annual conference.
@@ -474,7 +478,7 @@ Partner enablement · Channel partners · Partner meetups · Field enablement ·
 
 Chennai · Professional: Zoho
 
-Today I also enable Zoho's partners on AI. I help them understand what it can do and how to use it with their own clients, alongside my Bigin work.
+Today I am building Zoho's AI enablement for partners, from zero to one again. I help partners see what AI can do and how to take it to their own clients, alongside my Bigin work, so the whole ecosystem can bring it to market.
 
 ### Personal
 
@@ -482,7 +486,7 @@ Today I also enable Zoho's partners on AI. I help them understand what it can do
 
 Chennai · Personal
 
-I built Screener MCP, an open-source server that connects Screener.in to Claude, so I can research Indian stocks by talking to an AI. I am into investing and I wanted the tool to exist.
+I took Screener MCP from idea to open source: I built an MCP server that connects Screener.in to Claude, so I can research Indian stocks by talking to an AI. I am into investing and I wanted the tool to exist.
 
 On GitHub it has 20 stars, 14 forks and 3 contributors (checked November 2026). I later built a second server, for Indian mutual funds.
 
@@ -518,19 +522,23 @@ The latest episode is “What If I Actually Made This Film? | A Late-Night Thoug
 
 Know more: [listen on Spotify](https://open.spotify.com/show/56PZhMcxq43aoVfZRn7RpQ)
 
-### Volunteering for independent music
+### Planning and running independent music concerts
 
 Chennai · Personal
 
-I love independent music. Kaber Vasuki is one of my favourite independent artists, and he writes in Tamil. For his last three concerts, my friends and I volunteered and took care of the arrangements and the running of the whole event: welcoming guests, handing them their entry cards, organizing the seating, and meeting the fans as they arrived. It was event management, and I did it purely out of personal interest.
+I love independent music. Kaber Vasuki is one of my favourite independent artists, and he writes in Tamil. For his last three concerts, my friends and I volunteered and took care of the whole event, end to end, from the arrangements to running it on the day. It was event management, and I did it purely out of personal interest.
 
-It gave me a lot. I built a network among creative people in independent music, and I learned how the scene works and how hard it is for artists to organize events like these. Through those connections I also went to performances by a few other independent artists.
+**Planning.** We handled the arrangements: getting entry cards ready for the guests who were coming, and organizing the seating.
 
-It taught me how collaborating with creative people really works, and how ticketed events run. I do not like to let go of any opportunity that comes my way.
+**Executing.** On the day we ran the event: welcoming guests as they arrived, getting them seated, and meeting the fans as they came in.
+
+**What I took away.** A network among creative people in independent music. A close look at how the scene works, and how hard it is for artists to organize events like these. How collaborating with creative people really works, and how ticketed events run. Through those connections I also went to performances by a few other independent artists.
+
+I do not like to let go of any opportunity that comes my way.
 
 If you are reading this, listen to Kaber's songs. If you understand Tamil, I am sure you will fall in love with the lyrics. One line is in my Instagram bio: “மிஞ்சிப்போனால் மரணம் என்றபோது வாழ்க்கை வாழ வெட்கப்படலாமா?” It means: if death is the most that can happen in the end, why be shy of living your life?
 
-Event management · Independent music · Tamil music · Volunteering · Ticketed events · Fan engagement · Creator collaboration · Community building · Networking
+Event planning · Event execution · Event management · Independent music · Tamil music · Volunteering · Ticketed events · Fan engagement · Creator collaboration · Community building · Networking
 
 Know more: [Kaber Vasuki on Wikipedia](https://en.wikipedia.org/wiki/Kaber_Vasuki)
 
@@ -724,15 +732,17 @@ Read more: [my LinkedIn post from CLICK 2023](https://lnkd.in/p/gedjh46C)
 
 ## Kudremukh (place)
 
-### Kudremukh: a trek I organized, and a story people still ask about
+### Kudremukh: a trek I planned and organized, and a story people still ask about
 
 Kudremukh
 
-I organized a trek to Kudremukh with my friends, and I was so happy that it came together. Kudremukh is a hill range in Karnataka's Western Ghats.
+I planned and organized a trek to Kudremukh with my friends, and I was so happy that it came together. Kudremukh is a hill range in Karnataka's Western Ghats.
 
 Afterwards I wrote the whole plan up on Medium, in a post called "Trekking Kudremukh on a Budget: A DIY Adventure from Chennai". Even now, people message me on Instagram and other places asking how to plan the same trip. I love travelling and planning trips, so I share the details with them.
 
 It is one of the core memories I have.
+
+Trek planning · Trip planning · Execution · Kudremukh · Group travel · Medium
 
 Read more: [Trekking Kudremukh on a Budget, on Medium](https://medium.com/@logeshl2003/trekking-kudremukh-on-a-budget-a-diy-adventure-from-chennai-c270e192f557)
 
