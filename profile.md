@@ -17,6 +17,70 @@ Hello, I'm Logesh Ramasamy: I explore, I experiment, I build. I'm a partner solu
 - **Understands India**: I grew up in a small business in Trichy, and I have been to many parts of the country. Evidence: [The family business](https://logeshr15.github.io/wisprportfolio/#/story/father) · [A ride home with strangers](https://logeshr15.github.io/wisprportfolio/#/story/mumbai) · [The globe](https://logeshr15.github.io/wisprportfolio/#/globe)
 - **Communicates clearly**: Short sentences, every story as plain text on this page, a podcast you can hear, and a trek guide people still message me about. Evidence: [Read everything](https://logeshr15.github.io/wisprportfolio/#/read) · [Lokey thoughts (podcast)](https://open.spotify.com/show/56PZhMcxq43aoVfZRn7RpQ) · [Kudremukh trek write-up](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh)
 
+## Stories by theme
+
+### Where I come from
+
+A family business, a first phone, and a school-age habit of trying things.
+
+- [The family business: helping my parents](https://logeshr15.github.io/wisprportfolio/#/story/father)
+- [The Diwali roadside shop](https://logeshr15.github.io/wisprportfolio/#/story/diwali)
+- [My first phone: a Lenovo K5](https://logeshr15.github.io/wisprportfolio/#/story/phone)
+- [I wanted to write lyrics for cinema](https://logeshr15.github.io/wisprportfolio/#/story/writer)
+- [A blog nobody read](https://logeshr15.github.io/wisprportfolio/#/story/blog)
+- [Affiliate marketing and other small experiments](https://logeshr15.github.io/wisprportfolio/#/story/affiliate)
+- [To invent the uninvented: my self-published book](https://logeshr15.github.io/wisprportfolio/#/story/book)
+- [The house of unfinished things](https://logeshr15.github.io/wisprportfolio/#/story/shelf)
+
+### My work at Zoho
+
+Learning by doing, then partner enablement, Bigin and AI.
+
+- [Zoho Schools of Learning: learning by doing](https://logeshr15.github.io/wisprportfolio/#/story/zsl)
+- [Presales intern for the UK and Europe](https://logeshr15.github.io/wisprportfolio/#/story/presales)
+- [Partner solutions intern, Middle East and Africa](https://logeshr15.github.io/wisprportfolio/#/story/meaintern)
+- [Partner Solutions Engineer](https://logeshr15.github.io/wisprportfolio/#/story/pse)
+- [Leading partner enablement for Bigin](https://logeshr15.github.io/wisprportfolio/#/story/bigin)
+- [My partner enablement route](https://logeshr15.github.io/wisprportfolio/#/story/route)
+- [Enabling partners on AI](https://logeshr15.github.io/wisprportfolio/#/story/aipartners)
+
+### On the road with partners
+
+Events, meetups and visits across India, Dubai and Sri Lanka.
+
+- [Zoho Inspire, Dubai: presenting at 19](https://logeshr15.github.io/wisprportfolio/#/story/inspire)
+- [GITEX 2024: partners and customers in Dubai](https://logeshr15.github.io/wisprportfolio/#/story/gitex)
+- [Delhi: meeting partners and distributors](https://logeshr15.github.io/wisprportfolio/#/story/delhi)
+- [Zoho Partner Meetup 2024: the Delhi edition](https://logeshr15.github.io/wisprportfolio/#/story/delhimeetup)
+- [Coffee with Xscale at IIT Delhi: pitching Bigin to startups](https://logeshr15.github.io/wisprportfolio/#/story/xscale)
+- [Zoho Partner Meetup 2024: the Mumbai finale](https://logeshr15.github.io/wisprportfolio/#/story/mumbaimeetup)
+- [BNI Salem: pitching Zoho to local businesses](https://logeshr15.github.io/wisprportfolio/#/story/salem)
+- [Rajkot: enabling partners](https://logeshr15.github.io/wisprportfolio/#/story/gujarat)
+- [Nagpur: showcasing Bigin with a partner](https://logeshr15.github.io/wisprportfolio/#/story/nagpur)
+- [Advantage Vidarbha 2025: a few facts](https://logeshr15.github.io/wisprportfolio/#/story/vidarbha)
+- [Kolkata: training distributor and channel partners](https://logeshr15.github.io/wisprportfolio/#/story/kolkata)
+- [Sri Lanka: representing Zoho at CLICK 2023](https://logeshr15.github.io/wisprportfolio/#/story/srilanka)
+
+### What I build
+
+Open-source tools, Zoho integrations and a podcast.
+
+- [Screener MCP: an open-source tool I built](https://logeshr15.github.io/wisprportfolio/#/story/screener)
+- [Indian Mutual Funds MCP](https://logeshr15.github.io/wisprportfolio/#/story/mfmcp)
+- [MCP servers for Zoho products](https://logeshr15.github.io/wisprportfolio/#/story/zohotools)
+- [Lokey thoughts: my podcast](https://logeshr15.github.io/wisprportfolio/#/story/podcast)
+
+### For the love of it
+
+Music, treks and walks: the curiosity outside work.
+
+- [Volunteering for independent music](https://logeshr15.github.io/wisprportfolio/#/story/indiemusic)
+- [Kudremukh: a trek I organized, and a story people still ask about](https://logeshr15.github.io/wisprportfolio/#/story/kudremukh)
+- [A free day, a fort, and a ride home with strangers](https://logeshr15.github.io/wisprportfolio/#/story/mumbai)
+- [Yercaud on foot: nearly 30,000 steps](https://logeshr15.github.io/wisprportfolio/#/story/yercaud)
+- [Somnath, solo, without Gujarati](https://logeshr15.github.io/wisprportfolio/#/story/somnath)
+- [Kolkata: sunsets, the Math and a city full of history](https://logeshr15.github.io/wisprportfolio/#/story/kolkatatravel)
+
 ## My story in short
 
 I was a curious kid, and I still am. My parents run a family business, wholesale and manufacturing of home appliance covers, from the first floor of our house in Trichy, and I have helped with it since I was a child: sales, buying stock, and calling people to collect money. In 8th standard I ran one of our roadside Diwali shops, where we sold curtains, earned roughly ₹8,000 to ₹10,000, and bought my first phone, a Lenovo K5. That phone, and no laptop, is how I explored the world: I wanted to write lyrics for cinema, I learned to sell on Amazon, I started blogs, learned SEO and distribution, found readers on Quora, tried affiliate marketing, wrote and self-published a sci-fi book at 15, and freelanced as a social media marketer for small local brands.
