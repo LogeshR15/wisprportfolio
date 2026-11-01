@@ -150,7 +150,21 @@
    "summary": "I learned how a business works by helping my parents run theirs.",
    "text": "My parents run a family business: wholesale and manufacturing of home appliance covers. My father and mother run it together, and it ran from the first floor of our house.\n\nI have helped with every part of it since I was a child. I watched how it worked and pitched in with the operations: sales, buying stock, and calling people to collect the money they owed.\n\nThat is how my childhood went.",
    "keywords": [],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "diwali",
+     "why": "The family shop's Diwali stall"
+    },
+    {
+     "id": "blog",
+     "why": "The family business looking at e-commerce led to Amazon and marketing"
+    },
+    {
+     "id": "bigin",
+     "why": "A small-business childhood, a small-business CRM"
+    }
+   ]
   },
   {
    "id": "diwali",
@@ -162,7 +176,17 @@
    "summary": "Three or four days a year, I ran a shop.",
    "text": "Every Diwali we set up a roadside shop, and we sold curtains. It only ran for three or four days around Diwali.\n\nIn 8th standard, around 2016 or 2017, my father gave me the responsibility of running one of the shops. I earned roughly ₹8,000 to ₹10,000.",
    "keywords": [],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "father",
+     "why": "The family shop's Diwali stall"
+    },
+    {
+     "id": "phone",
+     "why": "The shop's earnings bought the phone"
+    }
+   ]
   },
   {
    "id": "phone",
@@ -174,7 +198,21 @@
    "summary": "The Diwali shop paid for the phone that opened up the world.",
    "text": "With the money from the Diwali shop I bought my first phone, a Lenovo K5. I did not know it then, but it became my way out into the world beyond the traditional business I had been learning.\n\nI did not have a laptop, so everything I did in those years, from the blogs to the writing to the affiliate experiments, I did on my mobile.",
    "keywords": [],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "diwali",
+     "why": "The shop's earnings bought the phone"
+    },
+    {
+     "id": "blog",
+     "why": "The blogs were run from that phone, with no laptop"
+    },
+    {
+     "id": "podcast",
+     "why": "From typing on a phone to speaking into one"
+    }
+   ]
   },
   {
    "id": "writer",
@@ -190,6 +228,24 @@
     {
      "text": "my writing on Medium",
      "url": "https://medium.com/@logeshl2003"
+    }
+   ],
+   "connected_to": [
+    {
+     "id": "blog",
+     "why": "The love of writing led to the blog"
+    },
+    {
+     "id": "book",
+     "why": "The love of writing led to the book"
+    },
+    {
+     "id": "indiemusic",
+     "why": "Lyrics: the cinema dream, and an independent artist's words"
+    },
+    {
+     "id": "podcast",
+     "why": "Storytelling, spoken instead of written"
     }
    ]
   },
@@ -210,6 +266,32 @@
      "text": "read To Start A Startup",
      "url": "https://tostartastartup.blogspot.com/"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "phone",
+     "why": "The blogs were run from that phone, with no laptop"
+    },
+    {
+     "id": "writer",
+     "why": "The love of writing led to the blog"
+    },
+    {
+     "id": "father",
+     "why": "The family business looking at e-commerce led to Amazon and marketing"
+    },
+    {
+     "id": "affiliate",
+     "why": "The same blogs hosted the affiliate experiments"
+    },
+    {
+     "id": "shelf",
+     "why": "The blog is on the shelf"
+    },
+    {
+     "id": "zsl",
+     "why": "Content and marketing skills carried into Zoho Schools"
+    }
    ]
   },
   {
@@ -222,7 +304,17 @@
    "summary": "Random, small experiments while I learned distribution.",
    "text": "During 10th and 11th standard I ran lots of small experiments around my writing, and affiliate marketing was one of them.\n\nI signed up with Amazon and promoted a few products, like the best smartphone to buy under ₹5,000. I was also reading lots of books during the lockdown, so I posted about the books and tried to promote them on Quora, on other sites and on my blogs. It was mostly Amazon. I also signed up with a few SaaS products, Mailchimp among them.",
    "keywords": [],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "blog",
+     "why": "The same blogs hosted the affiliate experiments"
+    },
+    {
+     "id": "shelf",
+     "why": "One of the small experiments on the shelf"
+    }
+   ]
   },
   {
    "id": "book",
@@ -238,6 +330,16 @@
     {
      "text": "see the book on Amazon",
      "url": "https://www.amazon.com/dp/B07X3P3749"
+    }
+   ],
+   "connected_to": [
+    {
+     "id": "writer",
+     "why": "The love of writing led to the book"
+    },
+    {
+     "id": "shelf",
+     "why": "The one thing on the shelf that shipped"
     }
    ]
   },
@@ -264,6 +366,20 @@
      "text": "see the book on Amazon",
      "url": "https://www.amazon.com/dp/B07X3P3749"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "blog",
+     "why": "The blog is on the shelf"
+    },
+    {
+     "id": "book",
+     "why": "The one thing on the shelf that shipped"
+    },
+    {
+     "id": "affiliate",
+     "why": "One of the small experiments on the shelf"
+    }
    ]
   },
   {
@@ -282,7 +398,17 @@
     "Marketing",
     "Public speaking"
    ],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "blog",
+     "why": "Content and marketing skills carried into Zoho Schools"
+    },
+    {
+     "id": "presales",
+     "why": "Learning by doing led to my first customer-facing role"
+    }
+   ]
   },
   {
    "id": "presales",
@@ -302,7 +428,17 @@
     "Retail",
     "Competitor analysis"
    ],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "zsl",
+     "why": "Learning by doing led to my first customer-facing role"
+    },
+    {
+     "id": "meaintern",
+     "why": "From UK and Europe retail to partners in MEA"
+    }
+   ]
   },
   {
    "id": "meaintern",
@@ -320,7 +456,21 @@
     "Pre-sales",
     "Zoho Inspire"
    ],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "presales",
+     "why": "From UK and Europe retail to partners in MEA"
+    },
+    {
+     "id": "pse",
+     "why": "The internship became the full-time role"
+    },
+    {
+     "id": "inspire",
+     "why": "The MEA internship led to the Inspire stage"
+    }
+   ]
   },
   {
    "id": "pse",
@@ -344,6 +494,24 @@
      "text": "my LinkedIn profile",
      "url": "https://www.linkedin.com/in/logesh-ramasamy"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "meaintern",
+     "why": "The internship became the full-time role"
+    },
+    {
+     "id": "bigin",
+     "why": "The role grew into leading Bigin enablement"
+    },
+    {
+     "id": "route",
+     "why": "The job is a field job"
+    },
+    {
+     "id": "zohotools",
+     "why": "Built around the products I work with"
+    }
    ]
   },
   {
@@ -363,7 +531,45 @@
     "RFPs and tenders",
     "Training"
    ],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "father",
+     "why": "A small-business childhood, a small-business CRM"
+    },
+    {
+     "id": "pse",
+     "why": "The role grew into leading Bigin enablement"
+    },
+    {
+     "id": "route",
+     "why": "Bigin partners are the route's destinations"
+    },
+    {
+     "id": "aipartners",
+     "why": "Partner enablement, now with AI"
+    },
+    {
+     "id": "xscale",
+     "why": "Pitching Bigin to startups as a first CRM"
+    },
+    {
+     "id": "delhimeetup",
+     "why": "Representing Bigin at the partner meetup"
+    },
+    {
+     "id": "nagpur",
+     "why": "Showcasing Bigin to small businesses"
+    },
+    {
+     "id": "kolkata",
+     "why": "Training Bigin's distributor and channel partners"
+    },
+    {
+     "id": "gitex",
+     "why": "Partner visits and customer conversations in Dubai"
+    }
+   ]
   },
   {
    "id": "route",
@@ -384,7 +590,57 @@
     "SMB",
     "Partnerships"
    ],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "pse",
+     "why": "The job is a field job"
+    },
+    {
+     "id": "bigin",
+     "why": "Bigin partners are the route's destinations"
+    },
+    {
+     "id": "inspire",
+     "why": "The first stop of the route"
+    },
+    {
+     "id": "gitex",
+     "why": "Dubai on the route, 2024"
+    },
+    {
+     "id": "delhimeetup",
+     "why": "A stop on the route"
+    },
+    {
+     "id": "mumbaimeetup",
+     "why": "The final stop of the 2024 meetup series"
+    },
+    {
+     "id": "salem",
+     "why": "A stop on the route"
+    },
+    {
+     "id": "gujarat",
+     "why": "A stop on the route"
+    },
+    {
+     "id": "nagpur",
+     "why": "A stop on the route"
+    },
+    {
+     "id": "kolkata",
+     "why": "A stop on the route"
+    },
+    {
+     "id": "srilanka",
+     "why": "A stop on the route"
+    },
+    {
+     "id": "indiemusic",
+     "why": "Event management, in work and for love"
+    }
+   ]
   },
   {
    "id": "aipartners",
@@ -396,7 +652,21 @@
    "summary": "Today I also help partners work with AI.",
    "text": "Today I also enable Zoho's partners on AI. I help them understand what it can do and how to use it with their own clients, alongside my Bigin work.",
    "keywords": [],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "bigin",
+     "why": "Partner enablement, now with AI"
+    },
+    {
+     "id": "zohotools",
+     "why": "AI at work and AI in my own projects"
+    },
+    {
+     "id": "screener",
+     "why": "AI at work and AI in my own projects"
+    }
+   ]
   },
   {
    "id": "screener",
@@ -417,6 +687,20 @@
      "text": "Indian MF MCP",
      "url": "https://github.com/LogeshR15/indian-mf-mcp"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "mfmcp",
+     "why": "The second MCP server, same idea"
+    },
+    {
+     "id": "zohotools",
+     "why": "MCP servers again, for Zoho products"
+    },
+    {
+     "id": "aipartners",
+     "why": "AI at work and AI in my own projects"
+    }
    ]
   },
   {
@@ -433,6 +717,16 @@
     {
      "text": "Indian MF MCP on GitHub",
      "url": "https://github.com/LogeshR15/indian-mf-mcp"
+    }
+   ],
+   "connected_to": [
+    {
+     "id": "screener",
+     "why": "The second MCP server, same idea"
+    },
+    {
+     "id": "zohotools",
+     "why": "MCP servers again, for Zoho products"
     }
    ]
   },
@@ -459,6 +753,24 @@
      "text": "Zoho CRM widget skill",
      "url": "https://github.com/LogeshR15/zohoCRM-widgetskills"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "screener",
+     "why": "MCP servers again, for Zoho products"
+    },
+    {
+     "id": "mfmcp",
+     "why": "MCP servers again, for Zoho products"
+    },
+    {
+     "id": "pse",
+     "why": "Built around the products I work with"
+    },
+    {
+     "id": "aipartners",
+     "why": "AI at work and AI in my own projects"
+    }
    ]
   },
   {
@@ -475,6 +787,16 @@
     {
      "text": "listen on Spotify",
      "url": "https://open.spotify.com/show/56PZhMcxq43aoVfZRn7RpQ"
+    }
+   ],
+   "connected_to": [
+    {
+     "id": "phone",
+     "why": "From typing on a phone to speaking into one"
+    },
+    {
+     "id": "writer",
+     "why": "Storytelling, spoken instead of written"
     }
    ]
   },
@@ -502,6 +824,20 @@
     {
      "text": "Kaber Vasuki on Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Kaber_Vasuki"
+    }
+   ],
+   "connected_to": [
+    {
+     "id": "writer",
+     "why": "Lyrics: the cinema dream, and an independent artist's words"
+    },
+    {
+     "id": "route",
+     "why": "Event management, in work and for love"
+    },
+    {
+     "id": "kudremukh",
+     "why": "Both done with friends"
     }
    ]
   },
@@ -533,6 +869,16 @@
      "text": "my 2024 LinkedIn reflection",
      "url": "https://www.linkedin.com/posts/logesh-ramasamy_zoho-partnerships-crm-ugcPost-7276292539777724417-VZFe/"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "route",
+     "why": "A stop on the route"
+    },
+    {
+     "id": "yercaud",
+     "why": "The spare day after the event"
+    }
    ]
   },
   {
@@ -545,7 +891,21 @@
    "summary": "No bike, no cab, no plan. Just walking.",
    "text": "After the event, I had one day left before heading back to Chennai. Instead of spending it resting, I decided to visit Yercaud.\n\nI didn't rent a bike, book a cab or plan a public transport route. I decided to explore the place entirely on foot.\n\nNearly 30,000 steps later, I had experienced Yercaud in a way I probably wouldn't have if I had travelled by car.\n\nI walked through its roads, took in the mountain views, observed people going about their lives and stopped to have conversations. I also got an opportunity to interact with local businesses and understand a little more about the people and business culture of Salem through my BNI connections.\n\nWhat I particularly enjoy about walking is that it slows you down. You start noticing things you would otherwise pass by. The little details, the people, the conversations and the unexpected discoveries.\n\nIt was a wonderful solo-travel experience. No elaborate itinerary, no vehicle and no rush to get anywhere.\n\nJust me, a lot of walking and a new place to explore.",
    "keywords": [],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "salem",
+     "why": "The spare day after the event"
+    },
+    {
+     "id": "kudremukh",
+     "why": "Walking and trekking"
+    },
+    {
+     "id": "somnath",
+     "why": "Solo trips on spare days"
+    }
+   ]
   },
   {
    "id": "inspire",
@@ -568,6 +928,20 @@
      "text": "my LinkedIn profile",
      "url": "https://www.linkedin.com/in/logesh-ramasamy"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "meaintern",
+     "why": "The MEA internship led to the Inspire stage"
+    },
+    {
+     "id": "gitex",
+     "why": "Dubai again, a year later"
+    },
+    {
+     "id": "route",
+     "why": "The first stop of the route"
+    }
    ]
   },
   {
@@ -582,7 +956,21 @@
    "keywords": [
     "GITEX Global 2024 · Dubai · Bigin CRM · Zoho · SaaS · Partner enablement · Customer visits"
    ],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "bigin",
+     "why": "Partner visits and customer conversations in Dubai"
+    },
+    {
+     "id": "inspire",
+     "why": "Dubai again, a year later"
+    },
+    {
+     "id": "route",
+     "why": "Dubai on the route, 2024"
+    }
+   ]
   },
   {
    "id": "mumbaimeetup",
@@ -607,6 +995,16 @@
      "text": "the Mumbai meetup post I shared",
      "url": "https://lnkd.in/p/gErviPvy"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "route",
+     "why": "The final stop of the 2024 meetup series"
+    },
+    {
+     "id": "mumbai",
+     "why": "The same city, a free day before a meeting"
+    }
    ]
   },
   {
@@ -619,7 +1017,21 @@
    "summary": "A trek, a crowd, and a ride home with people I had just met.",
    "text": "I had a free day before my meeting, so I decided to explore.\n\nIt was a weekend, and I took a train to Nashik. From there, I made my way to a fort for a trek. My original plan was simple: finish the trek and return by train or local transport.\n\nBut weekends have their own plans. The crowd slowed things down, and the trek took longer than I expected.\n\nWhile trekking, I struck up conversations with a few strangers. By the time we reached the end, I somehow found myself hitchhiking back with them instead of following my original plan.\n\nI didn't know these people before the trek. I hadn't planned this journey back either. Yet, we ended up sharing a ride, conversations and an experience I hadn't anticipated.\n\nIt was spontaneous, a little thrilling and genuinely fun.\n\nSometimes, the best part of exploring isn't the destination or the plan. It's the people you meet and the unexpected turns along the way.",
    "keywords": [],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "mumbaimeetup",
+     "why": "The same city, a free day before a meeting"
+    },
+    {
+     "id": "kudremukh",
+     "why": "Treks"
+    },
+    {
+     "id": "somnath",
+     "why": "Travelling light, trusting strangers"
+    }
+   ]
   },
   {
    "id": "gujarat",
@@ -644,6 +1056,16 @@
      "text": "my LinkedIn post from Rajkot",
      "url": "https://lnkd.in/p/gHUPxcqQ"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "route",
+     "why": "A stop on the route"
+    },
+    {
+     "id": "somnath",
+     "why": "A solo trip after the partner sessions"
+    }
    ]
   },
   {
@@ -656,7 +1078,21 @@
    "summary": "The last bus to Rajkot, and a flight the next day.",
    "text": "On that trip I also went to the Somnath temple on my own, without knowing Gujarati. Then I had to catch the last bus back to Rajkot, because I had a flight the next day.\n\nThere is more to that journey. Ask me for the whole story.",
    "keywords": [],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "gujarat",
+     "why": "A solo trip after the partner sessions"
+    },
+    {
+     "id": "yercaud",
+     "why": "Solo trips on spare days"
+    },
+    {
+     "id": "mumbai",
+     "why": "Travelling light, trusting strangers"
+    }
+   ]
   },
   {
    "id": "kolkata",
@@ -676,7 +1112,21 @@
     "Zoho Partners",
     "Field enablement"
    ],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "bigin",
+     "why": "Training Bigin's distributor and channel partners"
+    },
+    {
+     "id": "route",
+     "why": "A stop on the route"
+    },
+    {
+     "id": "kolkatatravel",
+     "why": "The same city, beyond the training sessions"
+    }
+   ]
   },
   {
    "id": "kolkatatravel",
@@ -695,7 +1145,13 @@
     "History",
     "Heritage architecture"
    ],
-   "links": []
+   "links": [],
+   "connected_to": [
+    {
+     "id": "kolkata",
+     "why": "The same city, beyond the training sessions"
+    }
+   ]
   },
   {
    "id": "delhi",
@@ -718,6 +1174,16 @@
     {
      "text": "my 2024 LinkedIn reflection",
      "url": "https://www.linkedin.com/posts/logesh-ramasamy_zoho-partnerships-crm-ugcPost-7276292539777724417-VZFe/"
+    }
+   ],
+   "connected_to": [
+    {
+     "id": "delhimeetup",
+     "why": "Partners and distributors, then the meetup"
+    },
+    {
+     "id": "xscale",
+     "why": "The same trip's startup event"
     }
    ]
   },
@@ -745,6 +1211,20 @@
      "text": "my LinkedIn post from the Delhi meetup",
      "url": "https://lnkd.in/p/g8XxJUae"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "bigin",
+     "why": "Representing Bigin at the partner meetup"
+    },
+    {
+     "id": "delhi",
+     "why": "Partners and distributors, then the meetup"
+    },
+    {
+     "id": "route",
+     "why": "A stop on the route"
+    }
    ]
   },
   {
@@ -769,6 +1249,16 @@
     {
      "text": "my 2024 LinkedIn reflection",
      "url": "https://www.linkedin.com/posts/logesh-ramasamy_zoho-partnerships-crm-ugcPost-7276292539777724417-VZFe/"
+    }
+   ],
+   "connected_to": [
+    {
+     "id": "bigin",
+     "why": "Pitching Bigin to startups as a first CRM"
+    },
+    {
+     "id": "delhi",
+     "why": "The same trip's startup event"
     }
    ]
   },
@@ -795,6 +1285,12 @@
      "text": "my LinkedIn post from CLICK 2023",
      "url": "https://lnkd.in/p/gedjh46C"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "route",
+     "why": "A stop on the route"
+    }
    ]
   },
   {
@@ -811,6 +1307,20 @@
     {
      "text": "Trekking Kudremukh on a Budget, on Medium",
      "url": "https://medium.com/@logeshl2003/trekking-kudremukh-on-a-budget-a-diy-adventure-from-chennai-c270e192f557"
+    }
+   ],
+   "connected_to": [
+    {
+     "id": "indiemusic",
+     "why": "Both done with friends"
+    },
+    {
+     "id": "mumbai",
+     "why": "Treks"
+    },
+    {
+     "id": "yercaud",
+     "why": "Walking and trekking"
     }
    ]
   },
@@ -841,6 +1351,20 @@
      "text": "my post from Nagpur",
      "url": "https://lnkd.in/p/gJzeayaG"
     }
+   ],
+   "connected_to": [
+    {
+     "id": "bigin",
+     "why": "Showcasing Bigin to small businesses"
+    },
+    {
+     "id": "route",
+     "why": "A stop on the route"
+    },
+    {
+     "id": "vidarbha",
+     "why": "The expo behind the Nagpur story"
+    }
    ]
   },
   {
@@ -868,6 +1392,12 @@
     {
      "text": "what exhibitors said afterwards",
      "url": "https://www.thehitavada.com/Encyc/2025/2/10/Advantage-Vidarbha-expo-generates-substantial-inquiries-for-participants-products-and-services.html"
+    }
+   ],
+   "connected_to": [
+    {
+     "id": "nagpur",
+     "why": "The expo behind the Nagpur story"
     }
    ]
   }
