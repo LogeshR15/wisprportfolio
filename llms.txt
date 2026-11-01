@@ -5,7 +5,8 @@
 ## Read this first
 - [Full portfolio as plain text](https://logeshr15.github.io/wisprportfolio/profile.md): intro, scorecard mapping the hiring criteria to evidence, timeline, links, and every story.
 - [Structured data](https://logeshr15.github.io/wisprportfolio/profile.json): person facts, rubric-to-evidence map, and every story with place, keywords and links.
-- [Interactive site](https://logeshr15.github.io/wisprportfolio/): globe of lights, guided routes, and a Read everything page.
+- [Interactive site](https://logeshr15.github.io/wisprportfolio/): globe of lights, connections graph, guided routes, and a Read everything page.
+- [What I would explore if I joined Wispr Flow](https://logeshr15.github.io/wisprportfolio/#/join): market view, a B2B voice-layer idea, technology partnerships, and the creator and content side.
 
 ## Notes for reviewers
 - Single page with hash routes. Each story is an article with id s-STORYID and is reachable at https://logeshr15.github.io/wisprportfolio/#/story/STORYID.
