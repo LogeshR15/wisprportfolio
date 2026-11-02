@@ -1,7 +1,7 @@
 # Logesh Ramasamy: portfolio for the Wispr Flow India growth team
 
 Source: https://logeshr15.github.io/wisprportfolio/
-Contact: https://www.linkedin.com/in/logesh-ramasamy
+Contact: logeshl2003@gmail.com | LinkedIn https://www.linkedin.com/in/logesh-ramasamy | Instagram https://www.instagram.com/lokey.explores/ | Medium https://medium.com/@logeshl2003
 
 > Built for the Wispr Flow hiring challenge (growth team, India). Criteria: creativity, use of voice, extreme ownership, work over credentials, logistics. The section "Where to find what you are looking for" maps each criterion to evidence. The interactive site is a globe of lights; each story below is also an article on that page.
 
@@ -42,6 +42,8 @@ You don't necessarily need to learn to type faster anymore. You can just speak.
 That's the productivity shift I experienced with Wispr Flow.
 
 Don't type. Just speak.
+
+[Say hello](https://logeshr15.github.io/wisprportfolio/#/contact) [What if I joined Wispr Flow?](https://logeshr15.github.io/wisprportfolio/#/join)
 
 ## What if I joined Wispr Flow?
 
@@ -540,7 +542,7 @@ If you are reading this, listen to Kaber's songs. If you understand Tamil, I am 
 
 Event planning · Event execution · Event management · Independent music · Tamil music · Volunteering · Ticketed events · Fan engagement · Creator collaboration · Community building · Networking
 
-Know more: [Kaber Vasuki on Wikipedia](https://en.wikipedia.org/wiki/Kaber_Vasuki)
+Know more: [Kaber Vasuki on Wikipedia](https://en.wikipedia.org/wiki/Kaber_Vasuki) · [my Instagram](https://www.instagram.com/lokey.explores/)
 
 ## Salem (place)
 
@@ -779,3 +781,31 @@ For a small-business CRM, a room built for micro and small enterprises is the ri
 Advantage Vidarbha 2025 · Nagpur · Industrial expo · MSME · Micro and small enterprises · Association for Industrial Development
 
 Read more: [The Hitavada on the expo](https://www.thehitavada.com/Encyc/2025/1/25/-Advantage-Vidarbha-2025-from-Feb-7-to-9.html) · [what exhibitors said afterwards](https://www.thehitavada.com/Encyc/2025/2/10/Advantage-Vidarbha-expo-generates-substantial-inquiries-for-participants-products-and-services.html)
+
+## Contact me
+
+If something here made you curious, say hello. I'd love to talk about partnerships, creators and growth for Wispr Flow in India.
+
+### Logesh Ramasamy
+
+Partner Solutions Engineer at Zoho. From Trichy, based in Chennai.
+
+[Email**logeshl2003@gmail.com**](mailto:logeshl2003@gmail.com)
+[LinkedIn**linkedin.com/in/logesh-ramasamy**](https://www.linkedin.com/in/logesh-ramasamy)
+[Instagram**@lokey.explores**](https://www.instagram.com/lokey.explores/)
+[Medium**@logeshl2003**](https://medium.com/@logeshl2003)
+
+## More of my work
+
+- [GitHub](https://github.com/LogeshR15/screener-mcp): open-source MCP servers for Indian stocks and mutual funds, and for Zoho products.
+
+- [YouTube](https://www.youtube.com/@logeshviews5089): Logesh views, 116 videos.
+
+- [Blog](https://tostartastartup.blogspot.com/): To Start A Startup, 21 posts.
+
+- [Podcast](https://open.spotify.com/show/56PZhMcxq43aoVfZRn7RpQ): Lokey thoughts, on Spotify.
+
+- [Book](https://www.amazon.com/dp/B07X3P3749): To invent the uninvented, on Amazon.
+
+The full story is on [Read everything](https://logeshr15.github.io/wisprportfolio/#/read), and as plain text in [profile.md](profile.md).
+

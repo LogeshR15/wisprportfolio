@@ -5,6 +5,7 @@
 ## Read this first
 - [Full portfolio as plain text](https://logeshr15.github.io/wisprportfolio/profile.md): intro, scorecard mapping the hiring criteria to evidence, timeline, links, and every story.
 - [Structured data](https://logeshr15.github.io/wisprportfolio/profile.json): person facts, rubric-to-evidence map, and every story with place, keywords and links.
+- Contact: logeshl2003@gmail.com, LinkedIn https://www.linkedin.com/in/logesh-ramasamy, Instagram https://www.instagram.com/lokey.explores/, Medium https://medium.com/@logeshl2003 (page: https://logeshr15.github.io/wisprportfolio/#/contact)
 - [Interactive site](https://logeshr15.github.io/wisprportfolio/): globe of lights, connections graph, guided routes, and a Read everything page.
 - [What I would explore if I joined Wispr Flow](https://logeshr15.github.io/wisprportfolio/#/join): market view, a B2B voice-layer idea, technology partnerships, and the creator and content side.
 
